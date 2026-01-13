@@ -1,32 +1,22 @@
+import pandas as pd
 from pathlib import Path
 
-def labelData(file):
-    #Pega só o nome do arquivo sem a extensão
-    fileName = file.stem
-    #Abre o arquivo para leitura
-    fileToRead = open(str(file), "r", encoding="utf-8")
-    #Cria um novo arquivo para escrita dos dados modificados
-    modifiedFile = open(f"datasetScript/finalData/{fileName}.txt", "w", encoding="utf-8")
+def label_data(file_path):
+    # Extrai o nome do arquivo sem a extensão
+    file_name = file_path.stem
 
-    #Itera em cada linha do arquivo original
-    for line in fileToRead:
-        #Remove espaços em branco
-        line = line.strip()
-        #Pega o valor da segunda coluna(batimentos cardíacos)
-        currentLine = round(float(line.split(",")[1]))
+    # Lê o arquivo
+    df = pd.read_csv(file_path, header=None, names=["Time", "Value"])
 
-        #Verifica se o valor é maior ou igual a 120
-        if currentLine >= 120:
-            modifiedFile.write(line + " Physical Activity \n")
-        else: 
-            modifiedFile.write(line + " Rest \n")
+    # Adiciona a coluna "Label" com base na coluna "Value"
+    df["Label"] = df["Value"].round().apply(lambda x: "Physical Activity" if x>= 120 else "Rest")
 
-    #Fecha os arquivos
-    fileToRead.close()
-    modifiedFile.close()
-    
-#Itera em todos os arquivos .txt na pasta initialData
-for file_path in Path("datasetScript/initialData").glob("*.txt"):
-    labelData(file_path)
+    # Salva o DataFrame modificado em um novo arquivo
+    output_path = f"hcpa-wearable-monitoring/datasetScript/finalData/{file_name}.txt"
 
+    # Salva sem cabeçalho e sem índice, como no arquivo original
+    df.to_csv(output_path, header=False, index=False)
 
+# Processa todos os arquivos na pasta inicialData
+for file_path in Path("hcpa-wearable-monitoring/datasetScript/initialData").glob("*.txt"):
+    label_data(file_path)
