@@ -5,6 +5,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 import tensorflow as tf
 from tensorflow import keras
 from keras import layers
+from tensorflow.keras.metrics import Recall
 
 import numpy as np
 import pandas as pd
@@ -32,7 +33,7 @@ model = keras.Sequential([
 model.compile(
     optimizer=keras.optimizers.Adam(learning_rate=0.001),
     loss="binary_crossentropy",
-    metrics=["accuracy"]
+    metrics=["accuracy", Recall()]
 )
 
 # Treianando o modelo
@@ -42,4 +43,4 @@ model.fit(x_train, y_train, epochs=7, batch_size=32)
 model.evaluate(x_test, y_test)
 
 # Salvando o modelo
-model.save("neuralNetwork/models/simple_model.keras")
+model.save("neuralNetwork/models/simple_model2.keras")
