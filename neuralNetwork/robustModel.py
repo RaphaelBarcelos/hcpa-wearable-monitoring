@@ -10,6 +10,10 @@ import numpy as np
 import pandas as pd
 
 df = pd.read_csv("neuralNetwork/data/dataset2.csv")
+df = df.dropna()
+
+# Deixa o dataset aleatorio 
+df = df.sample(frac=1, random_state=42).reset_index(drop=True)
 
 # Transforma os textos da coluna 'activityID' em categorias numéricas
 df["activityID"] = df["activityID"].astype("category")
@@ -28,16 +32,34 @@ df_train = df[PERCENT:]
 df_test = df[:PERCENT]
 
 # Separando entre treino e teste, valores e rótulos
-x_train = df_train["heart_rate"].to_numpy().astype('float32')
+x_train = df_train[["heart_rate",
+                   "hand temperature (°C)",
+                   "hand acceleration X ±16g",
+                   "hand acceleration Y ±16g",
+                   "hand acceleration Z ±16g",
+                   "hand gyroscope X",
+                   "hand gyroscope Y",
+                   "hand gyroscope Z"
+                   ]].to_numpy().astype('float32')
 y_train = df_train["activityID"].to_numpy()
 
-x_test = df_test["heart_rate"].to_numpy().astype('float32')
+x_test = df_test[["heart_rate",
+                   "hand temperature (°C)",
+                   "hand acceleration X ±16g",
+                   "hand acceleration Y ±16g",
+                   "hand acceleration Z ±16g",
+                   "hand gyroscope X",
+                   "hand gyroscope Y",
+                   "hand gyroscope Z"
+                ]].to_numpy().astype('float32')
 y_test = df_test["activityID"].to_numpy()
 
+print(np.isnan(x_train).sum())
+print(np.isinf(x_train).sum())
 
 # Criando a rede neural com 1 input e 1 output com 64 e 32 neuronios intermediários
 model = keras.Sequential([
-    layers.Input(shape=(1,)),
+    layers.Input(shape=(8,)),
     layers.Dense(64, activation="relu"),
     layers.Dense(32, activation="relu"),
     layers.Dense(num_classes, activation="softmax")
@@ -57,4 +79,4 @@ model.fit(x_train, y_train, epochs=7, batch_size=32)
 model.evaluate(x_test, y_test)
 
 # Salvando o modelo
-model.save("neuralNetwork/models/robust_model.keras")
+model.save("neuralNetwork/models/robust_model2.keras")
