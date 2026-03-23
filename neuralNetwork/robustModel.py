@@ -32,7 +32,8 @@ df_train = df[PERCENT:]
 df_test = df[:PERCENT]
 
 # Separando entre treino e teste, valores e rótulos
-x_train = df_train[["heart_rate",
+
+features = ["heart_rate",
                    "hand temperature (°C)",
                    "hand acceleration X ±16g",
                    "hand acceleration Y ±16g",
@@ -40,18 +41,12 @@ x_train = df_train[["heart_rate",
                    "hand gyroscope X",
                    "hand gyroscope Y",
                    "hand gyroscope Z"
-                   ]].to_numpy().astype('float32')
+                   ]
+
+x_train = df_train[features].to_numpy().astype('float32')
 y_train = df_train["activityID"].to_numpy()
 
-x_test = df_test[["heart_rate",
-                   "hand temperature (°C)",
-                   "hand acceleration X ±16g",
-                   "hand acceleration Y ±16g",
-                   "hand acceleration Z ±16g",
-                   "hand gyroscope X",
-                   "hand gyroscope Y",
-                   "hand gyroscope Z"
-                ]].to_numpy().astype('float32')
+x_test = df_test[features].to_numpy().astype('float32')
 y_test = df_test["activityID"].to_numpy()
 
 print(np.isnan(x_train).sum())
