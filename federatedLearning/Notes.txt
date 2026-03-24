@@ -1,0 +1,28 @@
+Federated Learning aplicado 2 Clients e 2 Rounds
+
+
+Relação Modelo Federated com Centralized:
+
+Absolute Gap = Centralized Gap - Federated Gap
+Absolute Gap = 0,7111 - 0,3581
+Absolute Gap = 0,353
+
+Relative Gap = (Centralized Gap - Federated Gap) / Centralized Gap
+Relative Gap = (0,7111 - 0,3581) / 0,7111
+Relative Gap = 0,353 / 0,7111
+Relative Gap = 0,4964
+
+Gap muito alto, indica pouca instabilidade do modelo federado com relação ao centralizado.
+Feito com um número pequeno de Clients e Rounds, além de um valor Alpha=0,1 resultando em dados extremamente Non-IID.
+
+
+Características dos Clients:
+
+Variância baixa para todos os Clients, convergindo nos resultados, todos erraram igualmente.
+Loss muito alta para os Clients.
+
+
+Próximos Passos:
+- Aumentar o número de Rounds;
+- Testar com mais Clients;
+- Alterar o valor de Alpha da disribuição de Dirichlet para ver se converge em dados mais IIDs;
