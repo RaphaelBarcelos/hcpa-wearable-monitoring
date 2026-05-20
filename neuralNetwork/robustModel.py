@@ -113,7 +113,7 @@ def f1_per_class(y_true, y_pred, num_classes, labels):
         print(f"{labels[cls]}: {f1:.4f}")
 
 # Treinando o modelo
-model.fit(x_train, y_train, validation_split=0.2, epochs=7, batch_size=32)
+model.fit(x_train, y_train, validation_split=0.2, epochs=20, batch_size=32)
 
 y_pred_probs = model.predict(x_test)
 y_pred = np.argmax(y_pred_probs, axis=1)
@@ -127,4 +127,4 @@ f1_per_class(y_test, y_pred, num_classes, categoriesLabel)
 model.evaluate(x_test, y_test)
 
 # Salvando o modelo
-model.save("neuralNetwork/models/robust_model5.keras")
+model.save("neuralNetwork/models/robust_model6.keras")

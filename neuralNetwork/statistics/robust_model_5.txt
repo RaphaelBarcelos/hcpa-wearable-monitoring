@@ -1,17 +1,17 @@
-loss: 0.6661 - sparse_categorical_accuracy: 0.7681
+F1 Macro: 0.7553663738378694
 
-F1 Macro: 0.7507221818439809
+Nordic walking: 0.8564
+ascending stairs: 0.4658
+cycling: 0.8574
+descending stairs: 0.4261
+ironing: 0.8189
+lying: 0.9457
+rope jumping: 0.6908
+running: 0.8193
+sitting: 0.8986
+standing: 0.7917
+transient activities: 0.7694
+vacuum cleaning: 0.6250
+walking: 0.8546
 
-Nordic walking: 0.8349
-ascending stairs: 0.4826
-cycling: 0.8446
-descending stairs: 0.5006
-ironing: 0.7986
-lying: 0.9391
-rope jumping: 0.7160
-running: 0.8094
-sitting: 0.8877
-standing: 0.7700
-transient activities: 0.7400
-vacuum cleaning: 0.6285
-walking: 0.8073
+2ms/step - loss: 0.6272 - sparse_categorical_accuracy: 0.7872   
