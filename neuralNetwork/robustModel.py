@@ -28,8 +28,8 @@ num_classes = len(categoriesLabel)
 # Divide o dataset em 70 e 30%
 PERCENT = int(len(df) * 0.7)
 
-df_train = df[PERCENT:]
-df_test = df[:PERCENT]
+df_train = df[:PERCENT]
+df_test = df[PERCENT:]
 
 # Separando entre treino e teste, valores e rótulos
 
@@ -49,9 +49,6 @@ y_train = df_train["activityID"].to_numpy()
 x_test = df_test[features].to_numpy().astype('float32')
 y_test = df_test["activityID"].to_numpy()
 
-print(np.isnan(x_train).sum())
-print(np.isinf(x_train).sum())
-
 # Criando a rede neural com 1 input e 1 output com 64 e 32 neuronios intermediários
 model = keras.Sequential([
     layers.Input(shape=(8,)),
@@ -67,11 +64,52 @@ model.compile(
     metrics=["sparse_categorical_accuracy"]
 )
 
+def f1_macro(y_true, y_pred, num_classes):
+    f1_scores = []
+
+    for cls in range(num_classes):
+        tp = np.sum((y_true == cls) & (y_pred == cls))
+        fp = np.sum((y_true != cls) & (y_pred == cls))
+        fn = np.sum((y_true == cls) & (y_pred != cls))
+
+        precision = tp / (tp + fp) if (tp + fp) > 0 else 0
+        recall = tp / (tp + fn) if (tp + fn) > 0 else 0
+
+        f1 = (
+            2 * precision * recall / (precision + recall)
+            if (precision + recall) > 0 else 0
+        )
+
+        f1_scores.append(f1)
+
+    return np.mean(f1_scores)
+
+def f1_per_class(y_true, y_pred, num_classes, labels):
+    for cls in range(num_classes):
+        tp = np.sum((y_true == cls) & (y_pred == cls))
+        fp = np.sum((y_true != cls) & (y_pred == cls))
+        fn = np.sum((y_true == cls) & (y_pred != cls))
+
+        precision = tp / (tp + fp) if (tp + fp) > 0 else 0
+        recall = tp / (tp + fn) if (tp + fn) > 0 else 0
+
+        f1 = 2 * precision * recall / (precision + recall) if (precision + recall) > 0 else 0
+
+        print(f"{labels[cls]}: {f1:.4f}")
+
 # Treinando o modelo
 model.fit(x_train, y_train, epochs=7, batch_size=32)
+
+y_pred_probs = model.predict(x_test)
+y_pred = np.argmax(y_pred_probs, axis=1)
+
+f1 = f1_macro(y_test, y_pred, num_classes)
+
+print("F1 Macro:", f1)
+f1_per_class(y_test, y_pred, num_classes, categoriesLabel)
 
 # Testando o modelo
 model.evaluate(x_test, y_test)
 
 # Salvando o modelo
-model.save("neuralNetwork/models/robust_model2.keras")
+model.save("neuralNetwork/models/robust_model4.keras")

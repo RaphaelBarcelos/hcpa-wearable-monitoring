@@ -38,3 +38,13 @@ df_test = pd.concat(df_list_test)
 # Salvando os novos datasets
 df_train.to_csv("neuralNetwork/data/train.csv", header=["Time", "Value", "Label"], index=False)
 df_test.to_csv("neuralNetwork/data/test.csv", header=["Time", "Value", "Label"], index=False)
+
+#<----------------------------------------->
+
+# Fazendo os dois datasestes serem um só
+df_1 = pd.read_csv("neuralNetwork/data/train.csv")
+df_2 = pd.read_csv("neuralNetwork/data/test.csv")
+
+df_new = pd.concat([df_1, df_2])
+
+df_new.to_csv("neuralNetwork/data/simpleDataset.csv", header=["Time", "Value", "Label"], index=False)
