@@ -9,6 +9,10 @@ from keras import layers
 import numpy as np
 import pandas as pd
 
+from sklearn.preprocessing import StandardScaler
+
+scaler = StandardScaler()
+
 df = pd.read_csv("neuralNetwork/data/dataset2.csv")
 df = df.dropna()
 
@@ -49,10 +53,21 @@ y_train = df_train["activityID"].to_numpy()
 x_test = df_test[features].to_numpy().astype('float32')
 y_test = df_test["activityID"].to_numpy()
 
-# Criando a rede neural com 1 input e 1 output com 64 e 32 neuronios intermediários
+# Normalizando
+x_train = scaler.fit_transform(x_train)
+x_test = scaler.transform(x_test)
+
+# Criando a rede neural com 1 input e 1 output com 128, 64 e 32 neuronios intermediários
 model = keras.Sequential([
     layers.Input(shape=(8,)),
+    layers.Dense(128, activation="relu"),
+    layers.BatchNormalization(),
+    layers.Dropout(0.3),
+
     layers.Dense(64, activation="relu"),
+    layers.BatchNormalization(),
+    layers.Dropout(0.3),
+
     layers.Dense(32, activation="relu"),
     layers.Dense(num_classes, activation="softmax")
 ])
@@ -98,7 +113,7 @@ def f1_per_class(y_true, y_pred, num_classes, labels):
         print(f"{labels[cls]}: {f1:.4f}")
 
 # Treinando o modelo
-model.fit(x_train, y_train, epochs=7, batch_size=32)
+model.fit(x_train, y_train, validation_split=0.2, epochs=7, batch_size=32)
 
 y_pred_probs = model.predict(x_test)
 y_pred = np.argmax(y_pred_probs, axis=1)
@@ -112,4 +127,4 @@ f1_per_class(y_test, y_pred, num_classes, categoriesLabel)
 model.evaluate(x_test, y_test)
 
 # Salvando o modelo
-model.save("neuralNetwork/models/robust_model4.keras")
+model.save("neuralNetwork/models/robust_model5.keras")

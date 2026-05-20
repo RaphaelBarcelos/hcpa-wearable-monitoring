@@ -6,12 +6,17 @@ import tensorflow as tf
 import numpy as np
 import pandas as pd
 
-model = tf.keras.models.load_model("neuralNetwork/models/robust_model4.keras")
+from sklearn.preprocessing import StandardScaler
+
+scaler = StandardScaler()
 
 df = pd.read_csv("neuralNetwork/data/dataset2.csv")
 df = df.dropna()
+
+# Deixa o dataset aleatorio 
 df = df.sample(frac=1, random_state=42).reset_index(drop=True)
 
+# Transforma os textos da coluna 'activityID' em categorias numéricas
 df["activityID"] = df["activityID"].astype("category")
 # Guarda os nomes (ex: "transient activities")
 categoriesLabel = df['activityID'].cat.categories
@@ -27,6 +32,8 @@ PERCENT = int(len(df) * 0.7)
 df_train = df[:PERCENT]
 df_test = df[PERCENT:]
 
+# Separando entre treino e teste, valores e rótulos
+
 features = ["heart_rate",
                    "hand temperature (°C)",
                    "hand acceleration X ±16g",
@@ -37,13 +44,20 @@ features = ["heart_rate",
                    "hand gyroscope Z"
                    ]
 
+x_train = df_train[features].to_numpy().astype('float32')
+y_train = df_train["activityID"].to_numpy()
+
 x_test = df_test[features].to_numpy().astype('float32')
 y_test = df_test["activityID"].to_numpy()
 
-result = model.evaluate(x_test, y_test)
+# Normalizando
+x_train = scaler.fit_transform(x_train)
+x_test = scaler.transform(x_test)
 
-for nome, valor in zip(model.metrics_names, result):
-    print(f"{nome}: {valor}")
+model = tf.keras.models.load_model("neuralNetwork/models/robust_model5.keras")
+model.evaluate(x_test, y_test)
+
+
 
 # df_test = pd.read_csv("neuralNetwork/data/train.csv")
 
