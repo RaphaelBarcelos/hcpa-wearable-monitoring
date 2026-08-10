@@ -35,8 +35,10 @@ def create_model(numClass):
 
 def fast_predict(model, x_data):
 
-    probs = model(x_data, training=False).numpy()
-    return np.argmax(probs, axis=1)
+    y_probs = model(x_data, training=False).numpy()
+    y_pred = np.argmax(y_probs, axis=1)
+
+    return y_pred, y_probs
 
 def federated_average(weights, sizes):
 
