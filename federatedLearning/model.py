@@ -33,14 +33,18 @@ def create_model(numClass):
 
     return model
 
+def fast_predict(model, x_data):
+
+    probs = model(x_data, training=False).numpy()
+    return np.argmax(probs, axis=1)
 
 def federated_average(weights, sizes):
+
     new_weights = []
 
     for layer_weights in zip(*weights):
-        new_weights.append(
-            np.sum([w * size for w, size in zip(layer_weights, sizes)], axis=0)
-            / np.sum(sizes)
-        )
+
+        weigth = np.sum([w * size for w, size in zip(layer_weights, sizes)], axis=0) / np.sum(sizes)
+        new_weights.append(weigth)
 
     return new_weights

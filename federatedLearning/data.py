@@ -37,32 +37,35 @@ def partitionDataByDirichlet(x, y, numClass):
 
     np.random.seed(RANDOM_STATE)
 
-    class_indices = [np.where(y == i)[0] for i in range(numClass)]
-    client_indices = [[] for _ in range(NUMBER_HOSPITALS)]
+    class_index = [np.where(y == i)[0] for i in range(numClass)]
+    client_index = [[] for _ in range(NUMBER_HOSPITALS)]
 
     for c in range(numClass):
-        indices = class_indices[c]
-        np.random.shuffle(indices)
+
+        index = class_index[c]
+        np.random.shuffle(index)
 
         proportions = np.random.dirichlet(ALPHA_DIRICHLET * np.ones(NUMBER_HOSPITALS))
-        proportions = np.maximum(proportions, 1e-6)
-        proportions = proportions / proportions.sum()
+        
+        counts = np.random.multinomial(len(index), proportions)
+        
+        current = 0
+        for client_id, count in enumerate(counts):
 
-        proportions = (np.cumsum(proportions) * len(indices)).astype(int)[:-1]
-        split_indices = np.split(indices, proportions)
-
-        for client_id, idx in enumerate(split_indices):
-            client_indices[client_id].extend(idx)
+            client_index[client_id].extend(index[current : current + count])
+            current += count
 
     client_data = []
 
     for i in range(NUMBER_HOSPITALS):
-        idx = client_indices[i]
 
-        if len(idx) == 0:
-            client_data.append((np.array([]), np.array([])))
+        index = np.array(client_index[i])
+
+        if (len(index) == 0):
+            client_data.append((np.empty((0, x.shape[1]), dtype='float32'), np.empty((0,), dtype=y.dtype)))
+
         else:
-            client_data.append((x[idx], y[idx]))
+            client_data.append((x[index], y[index]))
 
     return client_data
 
@@ -70,27 +73,35 @@ def partitionDataByDirichlet(x, y, numClass):
 def splitData(clientData):
 
     np.random.seed(RANDOM_STATE)
-
     split_data = []
 
     for x, y in clientData:
+        
         n = len(x)
 
-        if n == 0:
+        if (n == 0):
             split_data.append((x, y, x, y))
             continue
 
-        idx = np.random.permutation(n)
-
+        index = np.random.permutation(n)
         split = max(1, int(n * TRAIN_RATIO))
 
-        train_idx = idx[:split]
-        test_idx = idx[split:]
+        train_index = index[:split]
+        test_index = index[split:]
 
         scaler = StandardScaler()
 
-        x_train, y_train = scaler.fit_transform(x[train_idx]), y[train_idx]
-        x_test, y_test = scaler.transform(x[test_idx]), y[test_idx]
+        x_train = scaler.fit_transform(x[train_index])
+        y_train = y[train_index]
+
+        if (len(test_index) > 0):
+
+            x_test = scaler.transform(x[test_index])
+            y_test = y[test_index]
+
+        else:
+            x_test = np.empty((0, x.shape[1]), dtype='float32')
+            y_test = np.empty((0,), dtype=y.dtype)
 
         split_data.append((x_train, y_train, x_test, y_test))
 
