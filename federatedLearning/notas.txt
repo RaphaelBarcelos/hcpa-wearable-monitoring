@@ -1,0 +1,13 @@
+C1 = Modelo Centralizado
+C2 = Modelo Federado IID com 5 Hospitais e 20 Rounds
+C3 = Modelo Federado Non-IID com 5 Hospitais, 20 Rounds e Alpha 0.5
+
+___________________________________
+|         | C1    | C2    | C3    |
+|Loss     | 0.6272| 0.8654| 1.0034|
+|Acurácia | 0.7872| 0.7044| 0.6781|
+|Precisão | ?     | 0.6298| 0.5609|
+|Recall   | ?     | 0.7014| 0.6277|
+|F1-Score | 0.7553| 0.6214| 0.5229|
+|AUC      | ?     | 0.9671| 0.9575|
+|_________________________________|

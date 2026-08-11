@@ -55,7 +55,7 @@ for round_num in range(NUMBER_ROUNDS):
     for client_id, (x_train, y_train, x_test, y_test) in enumerate(clients_data):
 
         if len(x_train) == 0:
-            print(f"  {C_RED} Hospital {client_id}: Sem dados de treino.{C_RESET}")
+            print(f"  {C_RED} Hospital {client_id + 1}: Sem dados de treino.{C_RESET}")
             continue
 
         reusable_model.set_weights(global_weights)
@@ -95,7 +95,7 @@ for round_num in range(NUMBER_ROUNDS):
                 "auc": auc_val
             }))
 
-            print(f"  {C_BLUE} Hospital {client_id}{C_RESET} | Treino: {len(x_train)} | Teste: {len(x_test)}")
+            print(f"  {C_BLUE} Hospital {client_id + 1}{C_RESET} | Treino: {len(x_train)} | Teste: {len(x_test)}")
             print(f"     └─ {C_WHITE}Loss: {loss_val:.4f}{C_RESET} | {C_GREEN}Accuracy: {acc:.4f}{C_RESET} | {C_CYAN}Precision: {prec:.4f}{C_RESET} | {C_YELLOW}Recall: {rec:.4f}{C_RESET} | {C_MAGENTA}F1 Score: {f1:.4f}{C_RESET}| {C_CYAN}AUC: {auc_val:.4f}{C_RESET}")
 
         # Treinamento Local a partir dos pesos Globais
