@@ -1,8 +1,7 @@
 import warnings
-import matplotlib.pyplot as plt
-import seaborn as sns
 from colorama import Fore, Style, init
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score, log_loss, confusion_matrix
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score, log_loss
+from sklearn.utils.class_weight import compute_class_weight
 
 warnings.filterwarnings("ignore")
 
@@ -98,19 +97,35 @@ for round_num in range(NUMBER_ROUNDS):
             print(f"  {C_BLUE} Hospital {client_id + 1}{C_RESET} | Treino: {len(x_train)} | Teste: {len(x_test)}")
             print(f"     └─ {C_WHITE}Loss: {loss_val:.4f}{C_RESET} | {C_GREEN}Accuracy: {acc:.4f}{C_RESET} | {C_CYAN}Precision: {prec:.4f}{C_RESET} | {C_YELLOW}Recall: {rec:.4f}{C_RESET} | {C_MAGENTA}F1 Score: {f1:.4f}{C_RESET}| {C_CYAN}AUC: {auc_val:.4f}{C_RESET}")
 
-        # Treinamento Local a partir dos pesos Globais
-        reusable_model.fit(
-            x_train,
-            y_train,
-            epochs=LOCAL_EPOCHS,
-            batch_size=BATCH_SIZE,
-            verbose=0
-        )
+        number_class = np.unique(y_train)
+        all_weights = compute_class_weight(class_weight='balanced', classes=number_class, y=y_train)
+        dict_all_weights = dict(zip(number_class, all_weights))
 
-        client_weights.append(reusable_model.get_weights())
+        if (AGGREGATION_METHOD == 2):
+            updated_weights = train_client_fedprox(
+                model=reusable_model,
+                global_weights=global_weights,
+                x_train=x_train,
+                y_train=y_train,
+                epochs=LOCAL_EPOCHS,
+                batch_size=BATCH_SIZE,
+                mu=MU_PROXIMAL,
+                class_weights_dict=dict_all_weights
+            )
+        else: 
+            reusable_model.fit(
+                x_train,
+                y_train,
+                epochs=LOCAL_EPOCHS,
+                batch_size=BATCH_SIZE,
+                class_weight=dict_all_weights,
+                verbose=0
+            )
+            updated_weights = reusable_model.get_weights()
+
+        client_weights.append(updated_weights)
         client_sizes.append(len(x_train))
 
-    # Agregação com FedAvg
     if len(client_weights) > 0:
         global_weights = federated_average(client_weights, client_sizes)
         global_model.set_weights(global_weights)
@@ -139,17 +154,5 @@ print(f"{C_GREEN}✔ SIMULAÇÃO FEDERADA CONCLUÍDA COM SUCESSO!")
 print(f"{C_GREEN}{'='*60}{C_RESET}\n")
 
 print(f"{C_CYAN}Gerando e salvando imagem da Matriz de Confusão...{C_RESET}")
-
-confusionMatrix = confusion_matrix(all_final_y_true, all_final_y_pred)
-
-plt.figure(figsize=(10, 8))
-sns.heatmap(confusionMatrix, annot=True, fmt='d', cmap='Blues', cbar=True)
-plt.title('Matriz de Confusão - Modelo Global (Última Rodada)')
-plt.xlabel('Classe Prevista')
-plt.ylabel('Classe Real')
-plt.tight_layout()
-
-plt.savefig('matriz_confusao.png', dpi=300)
-plt.close()
-
+show_confusion_matrix(all_final_y_true, all_final_y_pred)
 print(f"{C_GREEN}✔ Matriz de Confusão salva com sucesso!{C_RESET}\n")

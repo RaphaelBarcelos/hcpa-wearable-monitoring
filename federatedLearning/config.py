@@ -10,7 +10,7 @@ INPUT_QUANTITY = 8
 RANDOM_STATE = 42
 
 # Federated Learning Dataset Distribution
-ALPHA_DIRICHLET = 1.0
+ALPHA_DIRICHLET = 0.1
 
 # Neural Network defined values
 VALIDATION_SPLIT = 0.2
@@ -20,4 +20,9 @@ LEARNING_RATE = 0.001
 
 # Federated Learning defined values
 NUMBER_HOSPITALS = 5
-NUMBER_ROUNDS = 20
+NUMBER_ROUNDS = 50
+
+# 1 -> FedAvg
+# 2 -> FedProx
+AGGREGATION_METHOD = 2
+MU_PROXIMAL = 0.01

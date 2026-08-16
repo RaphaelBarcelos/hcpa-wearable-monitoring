@@ -1,0 +1,804 @@
+>>> RODADA 13/50 <<<
+------------------------------------------------------------
+   Hospital 1 | Treino: 729491 | Teste: 312639
+     └─ Loss: 0.9408 | Accuracy: 0.6439 | Precision: 0.3053 | Recall: 0.5219 | F1 Score: 0.2834| AUC: 0.9457
+   Hospital 2 | Treino: 220072 | Teste: 94317
+     └─ Loss: 4.2375 | Accuracy: 0.0473 | Precision: 0.2603 | Recall: 0.1160 | F1 Score: 0.0950| AUC: 0.7849
+   Hospital 3 | Treino: 485246 | Teste: 207964
+     └─ Loss: 0.9987 | Accuracy: 0.5895 | Precision: 0.2800 | Recall: 0.3014 | F1 Score: 0.2412| AUC: 0.9237
+   Hospital 4 | Treino: 22918 | Teste: 9822
+     └─ Loss: 5.6188 | Accuracy: 0.0000 | Precision: 0.0000 | Recall: 0.0000 | F1 Score: 0.0000| AUC: 0.5014
+   Hospital 5 | Treino: 547078 | Teste: 234463
+     └─ Loss: 1.5309 | Accuracy: 0.4813 | Precision: 0.5399 | Recall: 0.3502 | F1 Score: 0.2786| AUC: 0.9380
+
+   METRICAS GLOBAIS AGREGADAS (RODADA 13)
+   Loss Média      : 1.5312
+   Acurácia Média  : 0.5135
+   Precisão Média  : 0.3548
+   Recall Médio    : 0.3711
+   F1-Score Médio  : 0.2480
+   AUC Média       : 0.9156
+
+>>> RODADA 14/50 <<<
+------------------------------------------------------------
+   Hospital 1 | Treino: 729491 | Teste: 312639
+     └─ Loss: 0.9506 | Accuracy: 0.6424 | Precision: 0.2822 | Recall: 0.4881 | F1 Score: 0.2619| AUC: 0.9442
+   Hospital 2 | Treino: 220072 | Teste: 94317
+     └─ Loss: 4.2288 | Accuracy: 0.0547 | Precision: 0.2319 | Recall: 0.1166 | F1 Score: 0.0921| AUC: 0.7809
+   Hospital 3 | Treino: 485246 | Teste: 207964
+     └─ Loss: 1.0338 | Accuracy: 0.5771 | Precision: 0.3514 | Recall: 0.3053 | F1 Score: 0.2379| AUC: 0.9204
+   Hospital 4 | Treino: 22918 | Teste: 9822
+     └─ Loss: 5.7092 | Accuracy: 0.0000 | Precision: 0.0000 | Recall: 0.0000 | F1 Score: 0.0000| AUC: 0.4917
+   Hospital 5 | Treino: 547078 | Teste: 234463
+     └─ Loss: 1.4803 | Accuracy: 0.5040 | Precision: 0.5023 | Recall: 0.3643 | F1 Score: 0.2924| AUC: 0.9408
+
+   METRICAS GLOBAIS AGREGADAS (RODADA 14)
+   Loss Média      : 1.5295
+   Acurácia Média  : 0.5170
+   Precisão Média  : 0.3503
+   Recall Médio    : 0.3637
+   F1-Score Médio  : 0.2428
+   AUC Média       : 0.9144
+
+>>> RODADA 15/50 <<<
+------------------------------------------------------------
+   Hospital 1 | Treino: 729491 | Teste: 312639
+     └─ Loss: 0.9494 | Accuracy: 0.6414 | Precision: 0.2832 | Recall: 0.4824 | F1 Score: 0.2592| AUC: 0.9443
+   Hospital 2 | Treino: 220072 | Teste: 94317
+     └─ Loss: 4.2677 | Accuracy: 0.0544 | Precision: 0.2156 | Recall: 0.1115 | F1 Score: 0.0889| AUC: 0.7739
+   Hospital 3 | Treino: 485246 | Teste: 207964
+     └─ Loss: 1.0305 | Accuracy: 0.5759 | Precision: 0.2753 | Recall: 0.3025 | F1 Score: 0.2353| AUC: 0.9239
+   Hospital 4 | Treino: 22918 | Teste: 9822
+     └─ Loss: 5.8040 | Accuracy: 0.0001 | Precision: 0.0104 | Recall: 0.0007 | F1 Score: 0.0013| AUC: 0.4905
+   Hospital 5 | Treino: 547078 | Teste: 234463
+     └─ Loss: 1.4779 | Accuracy: 0.4987 | Precision: 0.5072 | Recall: 0.3633 | F1 Score: 0.2893| AUC: 0.9414
+
+   METRICAS GLOBAIS AGREGADAS (RODADA 15)
+   Loss Média      : 1.5330
+   Acurácia Média  : 0.5148
+   Precisão Média  : 0.3318
+   Recall Médio    : 0.3601
+   F1-Score Médio  : 0.2400
+   AUC Média       : 0.9147
+
+>>> RODADA 16/50 <<<
+------------------------------------------------------------
+   Hospital 1 | Treino: 729491 | Teste: 312639
+     └─ Loss: 0.9120 | Accuracy: 0.6624 | Precision: 0.2902 | Recall: 0.4867 | F1 Score: 0.2721| AUC: 0.9467
+   Hospital 2 | Treino: 220072 | Teste: 94317
+     └─ Loss: 4.2667 | Accuracy: 0.0483 | Precision: 0.2066 | Recall: 0.1095 | F1 Score: 0.0874| AUC: 0.7799
+   Hospital 3 | Treino: 485246 | Teste: 207964
+     └─ Loss: 0.9839 | Accuracy: 0.5905 | Precision: 0.2815 | Recall: 0.3048 | F1 Score: 0.2458| AUC: 0.9256
+   Hospital 4 | Treino: 22918 | Teste: 9822
+     └─ Loss: 5.8166 | Accuracy: 0.0002 | Precision: 0.0000 | Recall: 0.0385 | F1 Score: 0.0000| AUC: 0.4944
+   Hospital 5 | Treino: 547078 | Teste: 234463
+     └─ Loss: 1.4645 | Accuracy: 0.4998 | Precision: 0.5404 | Recall: 0.3669 | F1 Score: 0.2928| AUC: 0.9434
+
+   METRICAS GLOBAIS AGREGADAS (RODADA 16)
+   Loss Média      : 1.5045
+   Acurácia Média  : 0.5257
+   Precisão Média  : 0.3439
+   Recall Médio    : 0.3635
+   F1-Score Médio  : 0.2480
+   AUC Média       : 0.9172
+
+>>> RODADA 17/50 <<<
+------------------------------------------------------------
+   Hospital 1 | Treino: 729491 | Teste: 312639
+     └─ Loss: 0.9322 | Accuracy: 0.6456 | Precision: 0.2884 | Recall: 0.4846 | F1 Score: 0.2646| AUC: 0.9470
+   Hospital 2 | Treino: 220072 | Teste: 94317
+     └─ Loss: 4.2994 | Accuracy: 0.0497 | Precision: 0.2300 | Recall: 0.1101 | F1 Score: 0.0858| AUC: 0.7812
+   Hospital 3 | Treino: 485246 | Teste: 207964
+     └─ Loss: 1.0151 | Accuracy: 0.5870 | Precision: 0.2775 | Recall: 0.3049 | F1 Score: 0.2410| AUC: 0.9241
+   Hospital 4 | Treino: 22918 | Teste: 9822
+     └─ Loss: 5.7915 | Accuracy: 0.0001 | Precision: 0.0000 | Recall: 0.0208 | F1 Score: 0.0000| AUC: 0.4997
+   Hospital 5 | Treino: 547078 | Teste: 234463
+     └─ Loss: 1.4362 | Accuracy: 0.5018 | Precision: 0.5265 | Recall: 0.3686 | F1 Score: 0.2846| AUC: 0.9448
+
+   METRICAS GLOBAIS AGREGADAS (RODADA 17)
+   Loss Média      : 1.5150
+   Acurácia Média  : 0.5194
+   Precisão Média  : 0.3410
+   Recall Médio    : 0.3630
+   F1-Score Médio  : 0.2417
+   AUC Média       : 0.9175
+
+>>> RODADA 18/50 <<<
+------------------------------------------------------------
+   Hospital 1 | Treino: 729491 | Teste: 312639
+     └─ Loss: 0.9108 | Accuracy: 0.6629 | Precision: 0.3020 | Recall: 0.5374 | F1 Score: 0.2884| AUC: 0.9493
+   Hospital 2 | Treino: 220072 | Teste: 94317
+     └─ Loss: 4.2868 | Accuracy: 0.0572 | Precision: 0.2332 | Recall: 0.1138 | F1 Score: 0.0930| AUC: 0.7838
+   Hospital 3 | Treino: 485246 | Teste: 207964
+     └─ Loss: 0.9944 | Accuracy: 0.5892 | Precision: 0.2800 | Recall: 0.3141 | F1 Score: 0.2399| AUC: 0.9241
+   Hospital 4 | Treino: 22918 | Teste: 9822
+     └─ Loss: 5.7720 | Accuracy: 0.0002 | Precision: 0.0278 | Recall: 0.0215 | F1 Score: 0.0014| AUC: 0.5023
+   Hospital 5 | Treino: 547078 | Teste: 234463
+     └─ Loss: 1.4098 | Accuracy: 0.5067 | Precision: 0.4629 | Recall: 0.3651 | F1 Score: 0.2898| AUC: 0.9443
+
+   METRICAS GLOBAIS AGREGADAS (RODADA 18)
+   Loss Média      : 1.4934
+   Acurácia Média  : 0.5284
+   Precisão Média  : 0.3299
+   Recall Médio    : 0.3840
+   F1-Score Médio  : 0.2523
+   AUC Média       : 0.9186
+
+>>> RODADA 19/50 <<<
+------------------------------------------------------------
+   Hospital 1 | Treino: 729491 | Teste: 312639
+     └─ Loss: 0.9171 | Accuracy: 0.6575 | Precision: 0.2824 | Recall: 0.4994 | F1 Score: 0.2685| AUC: 0.9474
+   Hospital 2 | Treino: 220072 | Teste: 94317
+     └─ Loss: 4.2384 | Accuracy: 0.0603 | Precision: 0.2324 | Recall: 0.1148 | F1 Score: 0.0927| AUC: 0.7887
+   Hospital 3 | Treino: 485246 | Teste: 207964
+     └─ Loss: 0.9978 | Accuracy: 0.5809 | Precision: 0.2776 | Recall: 0.3140 | F1 Score: 0.2358| AUC: 0.9258
+   Hospital 4 | Treino: 22918 | Teste: 9822
+     └─ Loss: 5.8247 | Accuracy: 0.0001 | Precision: 0.0000 | Recall: 0.0192 | F1 Score: 0.0000| AUC: 0.5095
+   Hospital 5 | Treino: 547078 | Teste: 234463
+     └─ Loss: 1.4157 | Accuracy: 0.5032 | Precision: 0.4762 | Recall: 0.3645 | F1 Score: 0.2836| AUC: 0.9436
+
+   METRICAS GLOBAIS AGREGADAS (RODADA 19)
+   Loss Média      : 1.4934
+   Acurácia Média  : 0.5238
+   Precisão Média  : 0.3254
+   Recall Médio    : 0.3700
+   F1-Score Médio  : 0.2423
+   AUC Média       : 0.9187
+
+>>> RODADA 20/50 <<<
+------------------------------------------------------------
+   Hospital 1 | Treino: 729491 | Teste: 312639
+     └─ Loss: 0.9154 | Accuracy: 0.6549 | Precision: 0.2852 | Recall: 0.4950 | F1 Score: 0.2704| AUC: 0.9476
+   Hospital 2 | Treino: 220072 | Teste: 94317
+     └─ Loss: 4.2487 | Accuracy: 0.0550 | Precision: 0.2303 | Recall: 0.1035 | F1 Score: 0.0876| AUC: 0.7894
+   Hospital 3 | Treino: 485246 | Teste: 207964
+     └─ Loss: 0.9934 | Accuracy: 0.5893 | Precision: 0.2861 | Recall: 0.3230 | F1 Score: 0.2546| AUC: 0.9236
+   Hospital 4 | Treino: 22918 | Teste: 9822
+     └─ Loss: 5.8318 | Accuracy: 0.0002 | Precision: 0.0128 | Recall: 0.0199 | F1 Score: 0.0012| AUC: 0.5125
+   Hospital 5 | Treino: 547078 | Teste: 234463
+     └─ Loss: 1.4144 | Accuracy: 0.5011 | Precision: 0.4314 | Recall: 0.3378 | F1 Score: 0.2666| AUC: 0.9436
+
+   METRICAS GLOBAIS AGREGADAS (RODADA 20)
+   Loss Média      : 1.4925
+   Acurácia Média  : 0.5237
+   Precisão Média  : 0.3162
+   Recall Médio    : 0.3621
+   F1-Score Médio  : 0.2424
+   AUC Média       : 0.9184
+
+>>> RODADA 21/50 <<<
+------------------------------------------------------------
+   Hospital 1 | Treino: 729491 | Teste: 312639
+     └─ Loss: 0.8886 | Accuracy: 0.6710 | Precision: 0.2848 | Recall: 0.4981 | F1 Score: 0.2753| AUC: 0.9484
+   Hospital 2 | Treino: 220072 | Teste: 94317
+     └─ Loss: 4.2727 | Accuracy: 0.0569 | Precision: 0.2315 | Recall: 0.1075 | F1 Score: 0.0897| AUC: 0.7922
+   Hospital 3 | Treino: 485246 | Teste: 207964
+     └─ Loss: 0.9616 | Accuracy: 0.6080 | Precision: 0.2946 | Recall: 0.3265 | F1 Score: 0.2660| AUC: 0.9271
+   Hospital 4 | Treino: 22918 | Teste: 9822
+     └─ Loss: 5.8156 | Accuracy: 0.0001 | Precision: 0.0000 | Recall: 0.0208 | F1 Score: 0.0000| AUC: 0.5114
+   Hospital 5 | Treino: 547078 | Teste: 234463
+     └─ Loss: 1.3909 | Accuracy: 0.5085 | Precision: 0.4409 | Recall: 0.3454 | F1 Score: 0.2768| AUC: 0.9448
+
+   METRICAS GLOBAIS AGREGADAS (RODADA 21)
+   Loss Média      : 1.4712
+   Acurácia Média  : 0.5363
+   Precisão Média  : 0.3207
+   Recall Médio    : 0.3666
+   F1-Score Médio  : 0.2499
+   AUC Média       : 0.9201
+
+>>> RODADA 22/50 <<<
+------------------------------------------------------------
+   Hospital 1 | Treino: 729491 | Teste: 312639
+     └─ Loss: 0.8748 | Accuracy: 0.6781 | Precision: 0.2855 | Recall: 0.5011 | F1 Score: 0.2776| AUC: 0.9494
+   Hospital 2 | Treino: 220072 | Teste: 94317
+     └─ Loss: 4.2783 | Accuracy: 0.0613 | Precision: 0.2247 | Recall: 0.1065 | F1 Score: 0.0914| AUC: 0.7925
+   Hospital 3 | Treino: 485246 | Teste: 207964
+     └─ Loss: 0.9652 | Accuracy: 0.6060 | Precision: 0.2987 | Recall: 0.3367 | F1 Score: 0.2668| AUC: 0.9283
+   Hospital 4 | Treino: 22918 | Teste: 9822
+     └─ Loss: 5.8928 | Accuracy: 0.0001 | Precision: 0.0000 | Recall: 0.0192 | F1 Score: 0.0000| AUC: 0.5025
+   Hospital 5 | Treino: 547078 | Teste: 234463
+     └─ Loss: 1.4241 | Accuracy: 0.5017 | Precision: 0.4596 | Recall: 0.3380 | F1 Score: 0.2699| AUC: 0.9434
+
+   METRICAS GLOBAIS AGREGADAS (RODADA 22)
+   Loss Média      : 1.4776
+   Acurácia Média  : 0.5371
+   Precisão Média  : 0.3262
+   Recall Médio    : 0.3680
+   F1-Score Médio  : 0.2492
+   AUC Média       : 0.9203
+
+>>> RODADA 23/50 <<<
+------------------------------------------------------------
+   Hospital 1 | Treino: 729491 | Teste: 312639
+     └─ Loss: 0.8804 | Accuracy: 0.6741 | Precision: 0.2910 | Recall: 0.4967 | F1 Score: 0.2770| AUC: 0.9510
+   Hospital 2 | Treino: 220072 | Teste: 94317
+     └─ Loss: 4.2771 | Accuracy: 0.0590 | Precision: 0.2286 | Recall: 0.1100 | F1 Score: 0.0912| AUC: 0.7915
+   Hospital 3 | Treino: 485246 | Teste: 207964
+     └─ Loss: 0.9812 | Accuracy: 0.6018 | Precision: 0.2924 | Recall: 0.3244 | F1 Score: 0.2611| AUC: 0.9295
+   Hospital 4 | Treino: 22918 | Teste: 9822
+     └─ Loss: 5.8858 | Accuracy: 0.0001 | Precision: 0.0000 | Recall: 0.0208 | F1 Score: 0.0000| AUC: 0.5122
+   Hospital 5 | Treino: 547078 | Teste: 234463
+     └─ Loss: 1.3794 | Accuracy: 0.5144 | Precision: 0.4554 | Recall: 0.3464 | F1 Score: 0.2762| AUC: 0.9462
+
+   METRICAS GLOBAIS AGREGADAS (RODADA 23)
+   Loss Média      : 1.4711
+   Acurácia Média  : 0.5378
+   Precisão Média  : 0.3260
+   Recall Médio    : 0.3661
+   F1-Score Médio  : 0.2494
+   AUC Média       : 0.9220
+
+>>> RODADA 24/50 <<<
+------------------------------------------------------------
+   Hospital 1 | Treino: 729491 | Teste: 312639
+     └─ Loss: 0.9022 | Accuracy: 0.6609 | Precision: 0.2840 | Recall: 0.4946 | F1 Score: 0.2716| AUC: 0.9488
+   Hospital 2 | Treino: 220072 | Teste: 94317
+     └─ Loss: 4.3924 | Accuracy: 0.0592 | Precision: 0.2277 | Recall: 0.1049 | F1 Score: 0.0898| AUC: 0.7896
+   Hospital 3 | Treino: 485246 | Teste: 207964
+     └─ Loss: 0.9734 | Accuracy: 0.6022 | Precision: 0.2898 | Recall: 0.3290 | F1 Score: 0.2596| AUC: 0.9238
+   Hospital 4 | Treino: 22918 | Teste: 9822
+     └─ Loss: 6.0558 | Accuracy: 0.0001 | Precision: 0.0000 | Recall: 0.0208 | F1 Score: 0.0000| AUC: 0.5080
+   Hospital 5 | Treino: 547078 | Teste: 234463
+     └─ Loss: 1.3872 | Accuracy: 0.5138 | Precision: 0.4561 | Recall: 0.3476 | F1 Score: 0.2811| AUC: 0.9457
+
+   METRICAS GLOBAIS AGREGADAS (RODADA 24)
+   Loss Média      : 1.4938
+   Acurácia Média  : 0.5330
+   Precisão Média  : 0.3229
+   Recall Médio    : 0.3662
+   F1-Score Médio  : 0.2482
+   AUC Média       : 0.9194
+
+>>> RODADA 25/50 <<<
+------------------------------------------------------------
+   Hospital 1 | Treino: 729491 | Teste: 312639
+     └─ Loss: 0.8804 | Accuracy: 0.6758 | Precision: 0.2897 | Recall: 0.5039 | F1 Score: 0.2807| AUC: 0.9528
+   Hospital 2 | Treino: 220072 | Teste: 94317
+     └─ Loss: 4.3027 | Accuracy: 0.0590 | Precision: 0.2252 | Recall: 0.1096 | F1 Score: 0.0905| AUC: 0.7923
+   Hospital 3 | Treino: 485246 | Teste: 207964
+     └─ Loss: 0.9785 | Accuracy: 0.6010 | Precision: 0.2911 | Recall: 0.3337 | F1 Score: 0.2621| AUC: 0.9279
+   Hospital 4 | Treino: 22918 | Teste: 9822
+     └─ Loss: 5.9074 | Accuracy: 0.0001 | Precision: 0.0000 | Recall: 0.0208 | F1 Score: 0.0000| AUC: 0.5141
+   Hospital 5 | Treino: 547078 | Teste: 234463
+     └─ Loss: 1.3297 | Accuracy: 0.5277 | Precision: 0.4659 | Recall: 0.3546 | F1 Score: 0.2866| AUC: 0.9477
+
+   METRICAS GLOBAIS AGREGADAS (RODADA 25)
+   Loss Média      : 1.4599
+   Acurácia Média  : 0.5419
+   Precisão Média  : 0.3277
+   Recall Médio    : 0.3732
+   F1-Score Médio  : 0.2537
+   AUC Média       : 0.9228
+
+>>> RODADA 26/50 <<<
+------------------------------------------------------------
+   Hospital 1 | Treino: 729491 | Teste: 312639
+     └─ Loss: 0.8910 | Accuracy: 0.6691 | Precision: 0.2904 | Recall: 0.4974 | F1 Score: 0.2767| AUC: 0.9503
+   Hospital 2 | Treino: 220072 | Teste: 94317
+     └─ Loss: 4.2046 | Accuracy: 0.0538 | Precision: 0.2254 | Recall: 0.1026 | F1 Score: 0.0840| AUC: 0.7951
+   Hospital 3 | Treino: 485246 | Teste: 207964
+     └─ Loss: 0.9966 | Accuracy: 0.5963 | Precision: 0.2864 | Recall: 0.3246 | F1 Score: 0.2558| AUC: 0.9293
+   Hospital 4 | Treino: 22918 | Teste: 9822
+     └─ Loss: 5.8733 | Accuracy: 0.0001 | Precision: 0.0000 | Recall: 0.0208 | F1 Score: 0.0000| AUC: 0.5218
+   Hospital 5 | Treino: 547078 | Teste: 234463
+     └─ Loss: 1.3355 | Accuracy: 0.5272 | Precision: 0.4684 | Recall: 0.3519 | F1 Score: 0.2848| AUC: 0.9473
+
+   METRICAS GLOBAIS AGREGADAS (RODADA 26)
+   Loss Média      : 1.4585
+   Acurácia Média  : 0.5376
+   Precisão Média  : 0.3275
+   Recall Médio    : 0.3671
+   F1-Score Médio  : 0.2495
+   AUC Média       : 0.9225
+
+>>> RODADA 27/50 <<<
+------------------------------------------------------------
+   Hospital 1 | Treino: 729491 | Teste: 312639
+     └─ Loss: 0.8711 | Accuracy: 0.6787 | Precision: 0.2909 | Recall: 0.5013 | F1 Score: 0.2807| AUC: 0.9547
+   Hospital 2 | Treino: 220072 | Teste: 94317
+     └─ Loss: 4.2764 | Accuracy: 0.0574 | Precision: 0.2280 | Recall: 0.1071 | F1 Score: 0.0886| AUC: 0.7933
+   Hospital 3 | Treino: 485246 | Teste: 207964
+     └─ Loss: 0.9673 | Accuracy: 0.6068 | Precision: 0.2930 | Recall: 0.3349 | F1 Score: 0.2621| AUC: 0.9311
+   Hospital 4 | Treino: 22918 | Teste: 9822
+     └─ Loss: 5.9814 | Accuracy: 0.0001 | Precision: 0.0000 | Recall: 0.0192 | F1 Score: 0.0000| AUC: 0.5220
+   Hospital 5 | Treino: 547078 | Teste: 234463
+     └─ Loss: 1.3378 | Accuracy: 0.5241 | Precision: 0.4537 | Recall: 0.3508 | F1 Score: 0.2857| AUC: 0.9475
+
+   METRICAS GLOBAIS AGREGADAS (RODADA 27)
+   Loss Média      : 1.4540
+   Acurácia Média  : 0.5432
+   Precisão Média  : 0.3256
+   Recall Médio    : 0.3712
+   F1-Score Médio  : 0.2533
+   AUC Média       : 0.9244
+
+>>> RODADA 28/50 <<<
+------------------------------------------------------------
+   Hospital 1 | Treino: 729491 | Teste: 312639
+     └─ Loss: 0.8765 | Accuracy: 0.6811 | Precision: 0.2906 | Recall: 0.5025 | F1 Score: 0.2816| AUC: 0.9517
+   Hospital 2 | Treino: 220072 | Teste: 94317
+     └─ Loss: 4.1212 | Accuracy: 0.0571 | Precision: 0.2359 | Recall: 0.1034 | F1 Score: 0.0910| AUC: 0.8033
+   Hospital 3 | Treino: 485246 | Teste: 207964
+     └─ Loss: 0.9776 | Accuracy: 0.6026 | Precision: 0.2979 | Recall: 0.3570 | F1 Score: 0.2743| AUC: 0.9306
+   Hospital 4 | Treino: 22918 | Teste: 9822
+     └─ Loss: 5.8441 | Accuracy: 0.0001 | Precision: 0.0000 | Recall: 0.0192 | F1 Score: 0.0000| AUC: 0.5223
+   Hospital 5 | Treino: 547078 | Teste: 234463
+     └─ Loss: 1.3576 | Accuracy: 0.5263 | Precision: 0.4706 | Recall: 0.3578 | F1 Score: 0.2878| AUC: 0.9457
+
+   METRICAS GLOBAIS AGREGADAS (RODADA 28)
+   Loss Média      : 1.4452
+   Acurácia Média  : 0.5435
+   Precisão Média  : 0.3322
+   Recall Médio    : 0.3784
+   F1-Score Médio  : 0.2574
+   AUC Média       : 0.9237
+
+>>> RODADA 29/50 <<<
+------------------------------------------------------------
+   Hospital 1 | Treino: 729491 | Teste: 312639
+     └─ Loss: 0.8605 | Accuracy: 0.6842 | Precision: 0.2892 | Recall: 0.5042 | F1 Score: 0.2804| AUC: 0.9529
+   Hospital 2 | Treino: 220072 | Teste: 94317
+     └─ Loss: 4.2198 | Accuracy: 0.0552 | Precision: 0.2310 | Recall: 0.1044 | F1 Score: 0.0848| AUC: 0.8029
+   Hospital 3 | Treino: 485246 | Teste: 207964
+     └─ Loss: 0.9842 | Accuracy: 0.5967 | Precision: 0.2914 | Recall: 0.3312 | F1 Score: 0.2617| AUC: 0.9320
+   Hospital 4 | Treino: 22918 | Teste: 9822
+     └─ Loss: 5.8779 | Accuracy: 0.0001 | Precision: 0.0000 | Recall: 0.0192 | F1 Score: 0.0000| AUC: 0.5288
+   Hospital 5 | Treino: 547078 | Teste: 234463
+     └─ Loss: 1.3240 | Accuracy: 0.5353 | Precision: 0.4574 | Recall: 0.3541 | F1 Score: 0.2890| AUC: 0.9472
+
+   METRICAS GLOBAIS AGREGADAS (RODADA 29)
+   Loss Média      : 1.4430
+   Acurácia Média  : 0.5455
+   Precisão Média  : 0.3259
+   Recall Médio    : 0.3719
+   F1-Score Médio  : 0.2535
+   AUC Média       : 0.9250
+
+>>> RODADA 30/50 <<<
+------------------------------------------------------------
+   Hospital 1 | Treino: 729491 | Teste: 312639
+     └─ Loss: 0.8529 | Accuracy: 0.6925 | Precision: 0.2860 | Recall: 0.5062 | F1 Score: 0.2803| AUC: 0.9530
+   Hospital 2 | Treino: 220072 | Teste: 94317
+     └─ Loss: 4.3039 | Accuracy: 0.0592 | Precision: 0.2333 | Recall: 0.1113 | F1 Score: 0.0911| AUC: 0.7967
+   Hospital 3 | Treino: 485246 | Teste: 207964
+     └─ Loss: 0.9839 | Accuracy: 0.5963 | Precision: 0.2897 | Recall: 0.3444 | F1 Score: 0.2633| AUC: 0.9302
+   Hospital 4 | Treino: 22918 | Teste: 9822
+     └─ Loss: 6.0462 | Accuracy: 0.0001 | Precision: 0.0000 | Recall: 0.0208 | F1 Score: 0.0000| AUC: 0.5305
+   Hospital 5 | Treino: 547078 | Teste: 234463
+     └─ Loss: 1.3462 | Accuracy: 0.5259 | Precision: 0.4627 | Recall: 0.3565 | F1 Score: 0.2839| AUC: 0.9467
+
+   METRICAS GLOBAIS AGREGADAS (RODADA 30)
+   Loss Média      : 1.4574
+   Acurácia Média  : 0.5463
+   Precisão Média  : 0.3261
+   Recall Médio    : 0.3773
+   F1-Score Médio  : 0.2532
+   AUC Média       : 0.9238
+
+>>> RODADA 31/50 <<<
+------------------------------------------------------------
+   Hospital 1 | Treino: 729491 | Teste: 312639
+     └─ Loss: 0.8318 | Accuracy: 0.7048 | Precision: 0.2869 | Recall: 0.5121 | F1 Score: 0.2868| AUC: 0.9541
+   Hospital 2 | Treino: 220072 | Teste: 94317
+     └─ Loss: 4.1653 | Accuracy: 0.0571 | Precision: 0.2301 | Recall: 0.1087 | F1 Score: 0.0876| AUC: 0.8030
+   Hospital 3 | Treino: 485246 | Teste: 207964
+     └─ Loss: 0.9518 | Accuracy: 0.6108 | Precision: 0.2982 | Recall: 0.3524 | F1 Score: 0.2741| AUC: 0.9343
+   Hospital 4 | Treino: 22918 | Teste: 9822
+     └─ Loss: 5.8716 | Accuracy: 0.0001 | Precision: 0.0000 | Recall: 0.0208 | F1 Score: 0.0000| AUC: 0.5261
+   Hospital 5 | Treino: 547078 | Teste: 234463
+     └─ Loss: 1.3289 | Accuracy: 0.5329 | Precision: 0.4743 | Recall: 0.3629 | F1 Score: 0.2928| AUC: 0.9485
+
+   METRICAS GLOBAIS AGREGADAS (RODADA 31)
+   Loss Média      : 1.4201
+   Acurácia Média  : 0.5560
+   Precisão Média  : 0.3312
+   Recall Médio    : 0.3828
+   F1-Score Médio  : 0.2602
+   AUC Média       : 0.9263
+
+>>> RODADA 32/50 <<<
+------------------------------------------------------------
+   Hospital 1 | Treino: 729491 | Teste: 312639
+     └─ Loss: 0.8628 | Accuracy: 0.6881 | Precision: 0.2894 | Recall: 0.5056 | F1 Score: 0.2826| AUC: 0.9542
+   Hospital 2 | Treino: 220072 | Teste: 94317
+     └─ Loss: 4.1829 | Accuracy: 0.0629 | Precision: 0.2301 | Recall: 0.1106 | F1 Score: 0.0929| AUC: 0.8080
+   Hospital 3 | Treino: 485246 | Teste: 207964
+     └─ Loss: 0.9750 | Accuracy: 0.6071 | Precision: 0.2964 | Recall: 0.3449 | F1 Score: 0.2680| AUC: 0.9333
+   Hospital 4 | Treino: 22918 | Teste: 9822
+     └─ Loss: 5.8442 | Accuracy: 0.0001 | Precision: 0.0000 | Recall: 0.0192 | F1 Score: 0.0000| AUC: 0.5273
+   Hospital 5 | Treino: 547078 | Teste: 234463
+     └─ Loss: 1.3093 | Accuracy: 0.5328 | Precision: 0.4812 | Recall: 0.3646 | F1 Score: 0.2931| AUC: 0.9472
+
+   METRICAS GLOBAIS AGREGADAS (RODADA 32)
+   Loss Média      : 1.4332
+   Acurácia Média  : 0.5496
+   Precisão Média  : 0.3336
+   Recall Médio    : 0.3793
+   F1-Score Médio  : 0.2579
+   AUC Média       : 0.9263
+
+>>> RODADA 33/50 <<<
+------------------------------------------------------------
+   Hospital 1 | Treino: 729491 | Teste: 312639
+     └─ Loss: 0.8573 | Accuracy: 0.6852 | Precision: 0.2876 | Recall: 0.5096 | F1 Score: 0.2813| AUC: 0.9556
+   Hospital 2 | Treino: 220072 | Teste: 94317
+     └─ Loss: 4.0632 | Accuracy: 0.0610 | Precision: 0.2296 | Recall: 0.1096 | F1 Score: 0.0926| AUC: 0.8125
+   Hospital 3 | Treino: 485246 | Teste: 207964
+     └─ Loss: 0.9446 | Accuracy: 0.6180 | Precision: 0.3139 | Recall: 0.3394 | F1 Score: 0.2751| AUC: 0.9390
+   Hospital 4 | Treino: 22918 | Teste: 9822
+     └─ Loss: 5.8541 | Accuracy: 0.0001 | Precision: 0.0000 | Recall: 0.0192 | F1 Score: 0.0000| AUC: 0.5279
+   Hospital 5 | Treino: 547078 | Teste: 234463
+     └─ Loss: 1.3368 | Accuracy: 0.5201 | Precision: 0.4763 | Recall: 0.3484 | F1 Score: 0.2772| AUC: 0.9464
+
+   METRICAS GLOBAIS AGREGADAS (RODADA 33)
+   Loss Média      : 1.4183
+   Acurácia Média  : 0.5475
+   Precisão Média  : 0.3358
+   Recall Médio    : 0.3749
+   F1-Score Médio  : 0.2547
+   AUC Média       : 0.9284
+
+>>> RODADA 34/50 <<<
+------------------------------------------------------------
+   Hospital 1 | Treino: 729491 | Teste: 312639
+     └─ Loss: 0.8688 | Accuracy: 0.6736 | Precision: 0.2865 | Recall: 0.4993 | F1 Score: 0.2760| AUC: 0.9523
+   Hospital 2 | Treino: 220072 | Teste: 94317
+     └─ Loss: 4.1660 | Accuracy: 0.0628 | Precision: 0.2330 | Recall: 0.1045 | F1 Score: 0.0918| AUC: 0.8060
+   Hospital 3 | Treino: 485246 | Teste: 207964
+     └─ Loss: 0.9451 | Accuracy: 0.6196 | Precision: 0.3089 | Recall: 0.3263 | F1 Score: 0.2724| AUC: 0.9372
+   Hospital 4 | Treino: 22918 | Teste: 9822
+     └─ Loss: 5.9696 | Accuracy: 0.0001 | Precision: 0.0000 | Recall: 0.0192 | F1 Score: 0.0000| AUC: 0.5376
+   Hospital 5 | Treino: 547078 | Teste: 234463
+     └─ Loss: 1.3720 | Accuracy: 0.5155 | Precision: 0.4820 | Recall: 0.3580 | F1 Score: 0.2764| AUC: 0.9451
+
+   METRICAS GLOBAIS AGREGADAS (RODADA 34)
+   Loss Média      : 1.4449
+   Acurácia Média  : 0.5426
+   Precisão Média  : 0.3361
+   Recall Médio    : 0.3700
+   F1-Score Médio  : 0.2519
+   AUC Média       : 0.9259
+
+>>> RODADA 35/50 <<<
+------------------------------------------------------------
+   Hospital 1 | Treino: 729491 | Teste: 312639
+     └─ Loss: 0.8537 | Accuracy: 0.6836 | Precision: 0.2924 | Recall: 0.5118 | F1 Score: 0.2837| AUC: 0.9551
+   Hospital 2 | Treino: 220072 | Teste: 94317
+     └─ Loss: 4.1285 | Accuracy: 0.0543 | Precision: 0.2296 | Recall: 0.0980 | F1 Score: 0.0856| AUC: 0.8067
+   Hospital 3 | Treino: 485246 | Teste: 207964
+     └─ Loss: 0.9698 | Accuracy: 0.6136 | Precision: 0.3090 | Recall: 0.3305 | F1 Score: 0.2741| AUC: 0.9360
+   Hospital 4 | Treino: 22918 | Teste: 9822
+     └─ Loss: 5.9751 | Accuracy: 0.0002 | Precision: 0.0257 | Recall: 0.0199 | F1 Score: 0.0013| AUC: 0.5249
+   Hospital 5 | Treino: 547078 | Teste: 234463
+     └─ Loss: 1.3081 | Accuracy: 0.5300 | Precision: 0.4861 | Recall: 0.3575 | F1 Score: 0.2868| AUC: 0.9471
+
+   METRICAS GLOBAIS AGREGADAS (RODADA 35)
+   Loss Média      : 1.4238
+   Acurácia Média  : 0.5478
+   Precisão Média  : 0.3393
+   Recall Médio    : 0.3748
+   F1-Score Médio  : 0.2573
+   AUC Média       : 0.9271
+
+>>> RODADA 36/50 <<<
+------------------------------------------------------------
+   Hospital 1 | Treino: 729491 | Teste: 312639
+     └─ Loss: 0.8538 | Accuracy: 0.6799 | Precision: 0.2912 | Recall: 0.5100 | F1 Score: 0.2811| AUC: 0.9555
+   Hospital 2 | Treino: 220072 | Teste: 94317
+     └─ Loss: 4.2370 | Accuracy: 0.0617 | Precision: 0.2330 | Recall: 0.1035 | F1 Score: 0.0902| AUC: 0.8087
+   Hospital 3 | Treino: 485246 | Teste: 207964
+     └─ Loss: 0.9659 | Accuracy: 0.6135 | Precision: 0.3170 | Recall: 0.3313 | F1 Score: 0.2769| AUC: 0.9329
+   Hospital 4 | Treino: 22918 | Teste: 9822
+     └─ Loss: 6.0708 | Accuracy: 0.0001 | Precision: 0.0000 | Recall: 0.0192 | F1 Score: 0.0000| AUC: 0.5406
+   Hospital 5 | Treino: 547078 | Teste: 234463
+     └─ Loss: 1.2786 | Accuracy: 0.5319 | Precision: 0.4803 | Recall: 0.3611 | F1 Score: 0.2900| AUC: 0.9487
+
+   METRICAS GLOBAIS AGREGADAS (RODADA 36)
+   Loss Média      : 1.4279
+   Acurácia Média  : 0.5478
+   Precisão Média  : 0.3393
+   Recall Médio    : 0.3759
+   F1-Score Médio  : 0.2583
+   AUC Média       : 0.9273
+
+>>> RODADA 37/50 <<<
+------------------------------------------------------------
+   Hospital 1 | Treino: 729491 | Teste: 312639
+     └─ Loss: 0.8435 | Accuracy: 0.6908 | Precision: 0.2912 | Recall: 0.5175 | F1 Score: 0.2859| AUC: 0.9550
+   Hospital 2 | Treino: 220072 | Teste: 94317
+     └─ Loss: 4.1885 | Accuracy: 0.0620 | Precision: 0.2289 | Recall: 0.1001 | F1 Score: 0.0888| AUC: 0.8056
+   Hospital 3 | Treino: 485246 | Teste: 207964
+     └─ Loss: 0.9585 | Accuracy: 0.6143 | Precision: 0.2904 | Recall: 0.3229 | F1 Score: 0.2636| AUC: 0.9367
+   Hospital 4 | Treino: 22918 | Teste: 9822
+     └─ Loss: 6.1376 | Accuracy: 0.0001 | Precision: 0.0000 | Recall: 0.0192 | F1 Score: 0.0000| AUC: 0.5334
+   Hospital 5 | Treino: 547078 | Teste: 234463
+     └─ Loss: 1.2753 | Accuracy: 0.5333 | Precision: 0.4806 | Recall: 0.3615 | F1 Score: 0.2916| AUC: 0.9485
+
+   METRICAS GLOBAIS AGREGADAS (RODADA 37)
+   Loss Média      : 1.4169
+   Acurácia Média  : 0.5524
+   Precisão Média  : 0.3325
+   Recall Médio    : 0.3763
+   F1-Score Médio  : 0.2571
+   AUC Média       : 0.9276
+
+>>> RODADA 38/50 <<<
+------------------------------------------------------------
+   Hospital 1 | Treino: 729491 | Teste: 312639
+     └─ Loss: 0.8442 | Accuracy: 0.6887 | Precision: 0.2856 | Recall: 0.5015 | F1 Score: 0.2793| AUC: 0.9549
+   Hospital 2 | Treino: 220072 | Teste: 94317
+     └─ Loss: 4.0694 | Accuracy: 0.0546 | Precision: 0.2256 | Recall: 0.1001 | F1 Score: 0.0861| AUC: 0.8062
+   Hospital 3 | Treino: 485246 | Teste: 207964
+     └─ Loss: 0.9754 | Accuracy: 0.6094 | Precision: 0.3082 | Recall: 0.3272 | F1 Score: 0.2711| AUC: 0.9368
+   Hospital 4 | Treino: 22918 | Teste: 9822
+     └─ Loss: 5.8304 | Accuracy: 0.0001 | Precision: 0.0000 | Recall: 0.0192 | F1 Score: 0.0000| AUC: 0.5342
+   Hospital 5 | Treino: 547078 | Teste: 234463
+     └─ Loss: 1.3006 | Accuracy: 0.5243 | Precision: 0.4579 | Recall: 0.3646 | F1 Score: 0.2856| AUC: 0.9473
+
+   METRICAS GLOBAIS AGREGADAS (RODADA 38)
+   Loss Média      : 1.4116
+   Acurácia Média  : 0.5472
+   Precisão Média  : 0.3283
+   Recall Médio    : 0.3724
+   F1-Score Médio  : 0.2546
+   AUC Média       : 0.9273
+
+>>> RODADA 39/50 <<<
+------------------------------------------------------------
+   Hospital 1 | Treino: 729491 | Teste: 312639
+     └─ Loss: 0.8476 | Accuracy: 0.6933 | Precision: 0.2900 | Recall: 0.5084 | F1 Score: 0.2852| AUC: 0.9551
+   Hospital 2 | Treino: 220072 | Teste: 94317
+     └─ Loss: 4.0854 | Accuracy: 0.0616 | Precision: 0.2266 | Recall: 0.1073 | F1 Score: 0.0911| AUC: 0.8140
+   Hospital 3 | Treino: 485246 | Teste: 207964
+     └─ Loss: 0.9806 | Accuracy: 0.6072 | Precision: 0.3120 | Recall: 0.3440 | F1 Score: 0.2768| AUC: 0.9367
+   Hospital 4 | Treino: 22918 | Teste: 9822
+     └─ Loss: 5.9562 | Accuracy: 0.0001 | Precision: 0.0000 | Recall: 0.0192 | F1 Score: 0.0000| AUC: 0.5431
+   Hospital 5 | Treino: 547078 | Teste: 234463
+     └─ Loss: 1.3199 | Accuracy: 0.5212 | Precision: 0.4670 | Recall: 0.3533 | F1 Score: 0.2859| AUC: 0.9472
+
+   METRICAS GLOBAIS AGREGADAS (RODADA 39)
+   Loss Média      : 1.4225
+   Acurácia Média  : 0.5482
+   Precisão Média  : 0.3333
+   Recall Médio    : 0.3767
+   F1-Score Médio  : 0.2588
+   AUC Média       : 0.9283
+
+>>> RODADA 40/50 <<<
+------------------------------------------------------------
+   Hospital 1 | Treino: 729491 | Teste: 312639
+     └─ Loss: 0.8234 | Accuracy: 0.7054 | Precision: 0.2914 | Recall: 0.5132 | F1 Score: 0.2896| AUC: 0.9561
+   Hospital 2 | Treino: 220072 | Teste: 94317
+     └─ Loss: 4.1909 | Accuracy: 0.0636 | Precision: 0.2280 | Recall: 0.1074 | F1 Score: 0.0901| AUC: 0.8043
+   Hospital 3 | Treino: 485246 | Teste: 207964
+     └─ Loss: 0.9594 | Accuracy: 0.6109 | Precision: 0.3107 | Recall: 0.3533 | F1 Score: 0.2698| AUC: 0.9353
+   Hospital 4 | Treino: 22918 | Teste: 9822
+     └─ Loss: 6.0331 | Accuracy: 0.0001 | Precision: 0.0000 | Recall: 0.0192 | F1 Score: 0.0000| AUC: 0.5386
+   Hospital 5 | Treino: 547078 | Teste: 234463
+     └─ Loss: 1.3089 | Accuracy: 0.5198 | Precision: 0.4831 | Recall: 0.3555 | F1 Score: 0.2818| AUC: 0.9476
+
+   METRICAS GLOBAIS AGREGADAS (RODADA 40)
+   Loss Média      : 1.4180
+   Acurácia Média  : 0.5534
+   Precisão Média  : 0.3381
+   Recall Médio    : 0.3813
+   F1-Score Médio  : 0.2574
+   AUC Média       : 0.9273
+
+>>> RODADA 41/50 <<<
+------------------------------------------------------------
+   Hospital 1 | Treino: 729491 | Teste: 312639
+     └─ Loss: 0.8300 | Accuracy: 0.7017 | Precision: 0.2907 | Recall: 0.5095 | F1 Score: 0.2869| AUC: 0.9534
+   Hospital 2 | Treino: 220072 | Teste: 94317
+     └─ Loss: 4.2277 | Accuracy: 0.0643 | Precision: 0.2301 | Recall: 0.1080 | F1 Score: 0.0914| AUC: 0.8041
+   Hospital 3 | Treino: 485246 | Teste: 207964
+     └─ Loss: 0.9735 | Accuracy: 0.6034 | Precision: 0.2983 | Recall: 0.3274 | F1 Score: 0.2608| AUC: 0.9370
+   Hospital 4 | Treino: 22918 | Teste: 9822
+     └─ Loss: 6.1157 | Accuracy: 0.0001 | Precision: 0.0000 | Recall: 0.0192 | F1 Score: 0.0000| AUC: 0.5400
+   Hospital 5 | Treino: 547078 | Teste: 234463
+     └─ Loss: 1.2789 | Accuracy: 0.5277 | Precision: 0.4814 | Recall: 0.3626 | F1 Score: 0.2869| AUC: 0.9493
+
+   METRICAS GLOBAIS AGREGADAS (RODADA 41)
+   Loss Média      : 1.4206
+   Acurácia Média  : 0.5524
+   Precisão Média  : 0.3346
+   Recall Médio    : 0.3757
+   F1-Score Médio  : 0.2558
+   AUC Média       : 0.9272
+
+>>> RODADA 42/50 <<<
+------------------------------------------------------------
+   Hospital 1 | Treino: 729491 | Teste: 312639
+     └─ Loss: 0.8418 | Accuracy: 0.6937 | Precision: 0.2913 | Recall: 0.5104 | F1 Score: 0.2853| AUC: 0.9561
+   Hospital 2 | Treino: 220072 | Teste: 94317
+     └─ Loss: 4.1633 | Accuracy: 0.0582 | Precision: 0.2313 | Recall: 0.1090 | F1 Score: 0.0897| AUC: 0.8113
+   Hospital 3 | Treino: 485246 | Teste: 207964
+     └─ Loss: 0.9817 | Accuracy: 0.6047 | Precision: 0.2938 | Recall: 0.3993 | F1 Score: 0.2662| AUC: 0.9332
+   Hospital 4 | Treino: 22918 | Teste: 9822
+     └─ Loss: 6.1430 | Accuracy: 0.0001 | Precision: 0.0000 | Recall: 0.0192 | F1 Score: 0.0000| AUC: 0.5386
+   Hospital 5 | Treino: 547078 | Teste: 234463
+     └─ Loss: 1.2859 | Accuracy: 0.5282 | Precision: 0.4836 | Recall: 0.3580 | F1 Score: 0.2834| AUC: 0.9486
+
+   METRICAS GLOBAIS AGREGADAS (RODADA 42)
+   Loss Média      : 1.4221
+   Acurácia Média  : 0.5493
+   Precisão Média  : 0.3344
+   Recall Médio    : 0.3923
+   F1-Score Médio  : 0.2554
+   AUC Média       : 0.9278
+
+>>> RODADA 43/50 <<<
+------------------------------------------------------------
+   Hospital 1 | Treino: 729491 | Teste: 312639
+     └─ Loss: 0.8420 | Accuracy: 0.6924 | Precision: 0.2869 | Recall: 0.5198 | F1 Score: 0.2832| AUC: 0.9546
+   Hospital 2 | Treino: 220072 | Teste: 94317
+     └─ Loss: 4.1308 | Accuracy: 0.0595 | Precision: 0.2326 | Recall: 0.1146 | F1 Score: 0.0935| AUC: 0.8070
+   Hospital 3 | Treino: 485246 | Teste: 207964
+     └─ Loss: 0.9564 | Accuracy: 0.6151 | Precision: 0.2965 | Recall: 0.3506 | F1 Score: 0.2742| AUC: 0.9353
+   Hospital 4 | Treino: 22918 | Teste: 9822
+     └─ Loss: 6.0661 | Accuracy: 0.0001 | Precision: 0.0000 | Recall: 0.0192 | F1 Score: 0.0000| AUC: 0.5340
+   Hospital 5 | Treino: 547078 | Teste: 234463
+     └─ Loss: 1.2986 | Accuracy: 0.5271 | Precision: 0.4891 | Recall: 0.3652 | F1 Score: 0.2892| AUC: 0.9483
+
+   METRICAS GLOBAIS AGREGADAS (RODADA 43)
+   Loss Média      : 1.4150
+   Acurácia Média  : 0.5512
+   Precisão Média  : 0.3352
+   Recall Médio    : 0.3865
+   F1-Score Médio  : 0.2586
+   AUC Média       : 0.9272
+
+>>> RODADA 44/50 <<<
+------------------------------------------------------------
+   Hospital 1 | Treino: 729491 | Teste: 312639
+     └─ Loss: 0.8512 | Accuracy: 0.6905 | Precision: 0.2874 | Recall: 0.5111 | F1 Score: 0.2829| AUC: 0.9529
+   Hospital 2 | Treino: 220072 | Teste: 94317
+     └─ Loss: 4.1830 | Accuracy: 0.0558 | Precision: 0.2299 | Recall: 0.1033 | F1 Score: 0.0872| AUC: 0.8030
+   Hospital 3 | Treino: 485246 | Teste: 207964
+     └─ Loss: 0.9626 | Accuracy: 0.6167 | Precision: 0.2960 | Recall: 0.3739 | F1 Score: 0.2779| AUC: 0.9354
+   Hospital 4 | Treino: 22918 | Teste: 9822
+     └─ Loss: 6.1133 | Accuracy: 0.0001 | Precision: 0.0000 | Recall: 0.0192 | F1 Score: 0.0000| AUC: 0.5411
+   Hospital 5 | Treino: 547078 | Teste: 234463
+     └─ Loss: 1.2668 | Accuracy: 0.5376 | Precision: 0.4775 | Recall: 0.3636 | F1 Score: 0.2901| AUC: 0.9476
+
+   METRICAS GLOBAIS AGREGADAS (RODADA 44)
+   Loss Média      : 1.4175
+   Acurácia Média  : 0.5534
+   Precisão Média  : 0.3318
+   Recall Médio    : 0.3873
+   F1-Score Médio  : 0.2589
+   AUC Média       : 0.9261
+
+>>> RODADA 45/50 <<<
+------------------------------------------------------------
+   Hospital 1 | Treino: 729491 | Teste: 312639
+     └─ Loss: 0.8396 | Accuracy: 0.6964 | Precision: 0.2898 | Recall: 0.5108 | F1 Score: 0.2857| AUC: 0.9541
+   Hospital 2 | Treino: 220072 | Teste: 94317
+     └─ Loss: 4.2262 | Accuracy: 0.0536 | Precision: 0.2317 | Recall: 0.1070 | F1 Score: 0.0879| AUC: 0.8055
+   Hospital 3 | Treino: 485246 | Teste: 207964
+     └─ Loss: 0.9500 | Accuracy: 0.6188 | Precision: 0.2958 | Recall: 0.3580 | F1 Score: 0.2701| AUC: 0.9360
+   Hospital 4 | Treino: 22918 | Teste: 9822
+     └─ Loss: 6.1981 | Accuracy: 0.0001 | Precision: 0.0000 | Recall: 0.0192 | F1 Score: 0.0000| AUC: 0.5409
+   Hospital 5 | Treino: 547078 | Teste: 234463
+     └─ Loss: 1.3030 | Accuracy: 0.5275 | Precision: 0.4808 | Recall: 0.3542 | F1 Score: 0.2846| AUC: 0.9473
+
+   METRICAS GLOBAIS AGREGADAS (RODADA 45)
+   Loss Média      : 1.4258
+   Acurácia Média  : 0.5530
+   Precisão Média  : 0.3337
+   Recall Médio    : 0.3811
+   F1-Score Médio  : 0.2567
+   AUC Média       : 0.9268
+
+>>> RODADA 46/50 <<<
+------------------------------------------------------------
+   Hospital 1 | Treino: 729491 | Teste: 312639
+     └─ Loss: 0.8384 | Accuracy: 0.6973 | Precision: 0.2873 | Recall: 0.5140 | F1 Score: 0.2849| AUC: 0.9525
+   Hospital 2 | Treino: 220072 | Teste: 94317
+     └─ Loss: 4.1612 | Accuracy: 0.0588 | Precision: 0.2294 | Recall: 0.1112 | F1 Score: 0.0896| AUC: 0.8074
+   Hospital 3 | Treino: 485246 | Teste: 207964
+     └─ Loss: 0.9667 | Accuracy: 0.6109 | Precision: 0.3069 | Recall: 0.3855 | F1 Score: 0.2719| AUC: 0.9374
+   Hospital 4 | Treino: 22918 | Teste: 9822
+     └─ Loss: 6.1393 | Accuracy: 0.0000 | Precision: 0.0000 | Recall: 0.0000 | F1 Score: 0.0000| AUC: 0.5369
+   Hospital 5 | Treino: 547078 | Teste: 234463
+     └─ Loss: 1.2765 | Accuracy: 0.5341 | Precision: 0.4787 | Recall: 0.3606 | F1 Score: 0.2844| AUC: 0.9492
+
+   METRICAS GLOBAIS AGREGADAS (RODADA 46)
+   Loss Média      : 1.4143
+   Acurácia Média  : 0.5538
+   Precisão Média  : 0.3346
+   Recall Médio    : 0.3909
+   F1-Score Médio  : 0.2569
+   AUC Média       : 0.9273
+
+>>> RODADA 47/50 <<<
+------------------------------------------------------------
+   Hospital 1 | Treino: 729491 | Teste: 312639
+     └─ Loss: 0.8364 | Accuracy: 0.6915 | Precision: 0.2880 | Recall: 0.5134 | F1 Score: 0.2832| AUC: 0.9544
+   Hospital 2 | Treino: 220072 | Teste: 94317
+     └─ Loss: 4.1527 | Accuracy: 0.0584 | Precision: 0.2334 | Recall: 0.1088 | F1 Score: 0.0905| AUC: 0.8123
+   Hospital 3 | Treino: 485246 | Teste: 207964
+     └─ Loss: 0.9602 | Accuracy: 0.6170 | Precision: 0.2995 | Recall: 0.3940 | F1 Score: 0.2776| AUC: 0.9371
+   Hospital 4 | Treino: 22918 | Teste: 9822
+     └─ Loss: 6.1396 | Accuracy: 0.0001 | Precision: 0.0000 | Recall: 0.0192 | F1 Score: 0.0000| AUC: 0.5326
+   Hospital 5 | Treino: 547078 | Teste: 234463
+     └─ Loss: 1.2742 | Accuracy: 0.5325 | Precision: 0.4770 | Recall: 0.3636 | F1 Score: 0.2834| AUC: 0.9487
+
+   METRICAS GLOBAIS AGREGADAS (RODADA 47)
+   Loss Média      : 1.4105
+   Acurácia Média  : 0.5527
+   Precisão Média  : 0.3331
+   Recall Médio    : 0.3935
+   F1-Score Médio  : 0.2575
+   AUC Média       : 0.9282
+
+>>> RODADA 48/50 <<<
+------------------------------------------------------------
+   Hospital 1 | Treino: 729491 | Teste: 312639
+     └─ Loss: 0.8283 | Accuracy: 0.7003 | Precision: 0.2927 | Recall: 0.5075 | F1 Score: 0.2865| AUC: 0.9547
+   Hospital 2 | Treino: 220072 | Teste: 94317
+     └─ Loss: 4.2105 | Accuracy: 0.0503 | Precision: 0.1961 | Recall: 0.1043 | F1 Score: 0.0843| AUC: 0.8113
+   Hospital 3 | Treino: 485246 | Teste: 207964
+     └─ Loss: 0.9599 | Accuracy: 0.6161 | Precision: 0.3000 | Recall: 0.3358 | F1 Score: 0.2730| AUC: 0.9348
+   Hospital 4 | Treino: 22918 | Teste: 9822
+     └─ Loss: 6.2425 | Accuracy: 0.0001 | Precision: 0.0000 | Recall: 0.0192 | F1 Score: 0.0000| AUC: 0.5371
+   Hospital 5 | Treino: 547078 | Teste: 234463
+     └─ Loss: 1.2697 | Accuracy: 0.5291 | Precision: 0.4739 | Recall: 0.3583 | F1 Score: 0.2820| AUC: 0.9484
+
+   METRICAS GLOBAIS AGREGADAS (RODADA 48)
+   Loss Média      : 1.4138
+   Acurácia Média  : 0.5539
+   Precisão Média  : 0.3300
+   Recall Médio    : 0.3754
+   F1-Score Médio  : 0.2565
+   AUC Média       : 0.9276
+
+>>> RODADA 49/50 <<<
+------------------------------------------------------------
+   Hospital 1 | Treino: 729491 | Teste: 312639
+     └─ Loss: 0.8645 | Accuracy: 0.6763 | Precision: 0.2912 | Recall: 0.5166 | F1 Score: 0.2814| AUC: 0.9534
+   Hospital 2 | Treino: 220072 | Teste: 94317
+     └─ Loss: 4.2210 | Accuracy: 0.0584 | Precision: 0.2303 | Recall: 0.1090 | F1 Score: 0.0894| AUC: 0.8092
+   Hospital 3 | Treino: 485246 | Teste: 207964
+     └─ Loss: 0.9798 | Accuracy: 0.6060 | Precision: 0.2899 | Recall: 0.3500 | F1 Score: 0.2568| AUC: 0.9349
+   Hospital 4 | Treino: 22918 | Teste: 9822
+     └─ Loss: 6.3415 | Accuracy: 0.0001 | Precision: 0.0000 | Recall: 0.0192 | F1 Score: 0.0000| AUC: 0.5396
+   Hospital 5 | Treino: 547078 | Teste: 234463
+     └─ Loss: 1.2634 | Accuracy: 0.5304 | Precision: 0.5124 | Recall: 0.3897 | F1 Score: 0.3051| AUC: 0.9477
+
+   METRICAS GLOBAIS AGREGADAS (RODADA 49)
+   Loss Média      : 1.4323
+   Acurácia Média  : 0.5439
+   Precisão Média  : 0.3412
+   Recall Médio    : 0.3912
+   F1-Score Médio  : 0.2576
+   AUC Média       : 0.9268
+
+>>> RODADA 50/50 <<<
+------------------------------------------------------------
+   Hospital 1 | Treino: 729491 | Teste: 312639
+     └─ Loss: 0.8562 | Accuracy: 0.6811 | Precision: 0.2892 | Recall: 0.5117 | F1 Score: 0.2820| AUC: 0.9527
+   Hospital 2 | Treino: 220072 | Teste: 94317
+     └─ Loss: 4.2034 | Accuracy: 0.0559 | Precision: 0.2264 | Recall: 0.1107 | F1 Score: 0.0859| AUC: 0.8086
+   Hospital 3 | Treino: 485246 | Teste: 207964
+     └─ Loss: 0.9888 | Accuracy: 0.6043 | Precision: 0.2916 | Recall: 0.3623 | F1 Score: 0.2683| AUC: 0.9353
+   Hospital 4 | Treino: 22918 | Teste: 9822
+     └─ Loss: 6.3370 | Accuracy: 0.0001 | Precision: 0.0000 | Recall: 0.0192 | F1 Score: 0.0000| AUC: 0.5413
+   Hospital 5 | Treino: 547078 | Teste: 234463
+     └─ Loss: 1.2561 | Accuracy: 0.5364 | Precision: 0.4816 | Recall: 0.3618 | F1 Score: 0.2858| AUC: 0.9486
+
+   METRICAS GLOBAIS AGREGADAS (RODADA 50)
+   Loss Média      : 1.4275
+   Acurácia Média  : 0.5466
+   Precisão Média  : 0.3321
+   Recall Médio    : 0.3850
+   F1-Score Médio  : 0.2550
+   AUC Média       : 0.9268
+
+============================================================
+✔ SIMULAÇÃO FEDERADA CONCLUÍDA COM SUCESSO!
+============================================================
+
+Gerando e salvando imagem da Matriz de Confusão...
+✔ Matriz de Confusão salva com sucesso!

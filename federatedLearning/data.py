@@ -1,6 +1,9 @@
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
 from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import confusion_matrix
 
 from config import *  
 
@@ -106,3 +109,17 @@ def splitData(clientData):
         split_data.append((x_train, y_train, x_test, y_test))
 
     return split_data
+
+def show_confusion_matrix(all_final_y_true, all_final_y_pred):
+
+    confusionMatrix = confusion_matrix(all_final_y_true, all_final_y_pred, normalize='true')
+
+    plt.figure(figsize=(10, 8))
+    sns.heatmap(confusionMatrix, annot=True, fmt='.2f', cmap='Blues', cbar=True)
+    plt.title('Matriz de Confusão - Modelo Global (Última Rodada)')
+    plt.xlabel('Classe Prevista')
+    plt.ylabel('Classe Real')
+    plt.tight_layout()
+
+    plt.savefig('matriz_confusao.png', dpi=300)
+    plt.close()

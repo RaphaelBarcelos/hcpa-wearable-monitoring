@@ -1,7 +1,27 @@
-C1 = Modelo Centralizado
-C2 = Modelo Federado IID com 5 Hospitais e 20 Rounds
-C3 = Modelo Federado Non-IID com 5 Hospitais, 20 Rounds e Alpha 0.5
+Otimização e Modularização do Código e do Terminal.
 
+
+Cálculo de Métricas nos Clientes (Hospitais) e o Servidor.
+Implementação de loss, accuracy, precision, recall, f1_score e auc 
+no cliente.
+Implementação de loss, accuracy, precision, recall, f1_score, auc e 
+a matriz de confusão no servidor.
+
+
+Otimização de Tempo, aumentando o número de Batchs para 512 em
+diminuindo o número de Epochs para 3. Reutilização do mesmo modelo
+ao invés de criar novo para cada Cliente, apenas alterando os pesos.
+Um treinamento de 5 Hospitais e 2 Rounds antes demorava 30 min para ser
+executado, agor demora uns 3 min.
+Isso não só diminuiu drasticamente o tempo, como até aumentou o valor das 
+Métricas.
+
+
+Tabela Comparativa:
+
+C1 = Modelo Centralizado
+C2 = Modelo Federado Non-IID com 5 Hospitais e 20 Rounds e Alpha 1.0 (Distribuição Uniforme)
+C3 = Modelo Federado Non-IID com 5 Hospitais, 20 Rounds e Alpha 0.5
 ___________________________________
 |         | C1    | C2    | C3    |
 |Loss     | 0.6272| 0.8654| 1.0034|
@@ -11,3 +31,20 @@ ___________________________________
 |F1-Score | 0.7553| 0.6214| 0.5229|
 |AUC      | ?     | 0.9671| 0.9575|
 |_________________________________|
+
+
+Problema = Ao analisar as métricas e Matriz de Confusão, percebe que o modelo
+está sempre prevendo classes específicas, enquanto as outras estão praticamente
+zeradas. Fica mais perceptível quanto mais Non-IID.
+
+Possíveis Soluções:
+
+Mudar o Sistema de Loss do modelo para que varie com o Peso da Classe.
+Transforma Categorical Cross-Entropy em Weighted Cross-Entropy.
+
+FedAvg = Ocorrência de Client Drift. Quando diferentes clientes puxam
+o modelo para direções ótimas diferentes, trazendo inconsistência no 
+modelo global. Isso ocorre pois os pesos são iguais, fazendo com que seja
+a mesma taxa de aprendizado dentre classes maiores e menores no modelo global,
+gerando a inconsistência.
+Implementar FedProx, FedOpt ou FedAdam.
