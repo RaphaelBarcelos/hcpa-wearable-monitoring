@@ -48,3 +48,5 @@ modelo global. Isso ocorre pois os pesos são iguais, fazendo com que seja
 a mesma taxa de aprendizado dentre classes maiores e menores no modelo global,
 gerando a inconsistência.
 Implementar FedProx, FedOpt ou FedAdam.
+
+FedProx test 8 com alpha 0.5, 3 hospitais e 100 rounds

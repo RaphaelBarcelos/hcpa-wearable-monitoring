@@ -90,3 +90,32 @@ def train_client_fedprox(model, global_weights, x_train, y_train, epochs, batch_
             _fedprox_step(model, x_batch, y_batch, global_weights_tf, class_weights_tensor, loss_fn, mu)
             
     return model.get_weights()
+
+def federated_adam(global_weights, client_weights, client_sizes, m_t, v_t, round_num):
+    
+    new_weights = []
+    for layer_weights in zip(*client_weights):
+        w_avg = np.sum([w * size for w, size in zip(layer_weights, client_sizes)], axis=0) / np.sum(client_sizes)
+        new_weights.append(w_avg)
+
+    pseudo_grads = [g - w for g, w in zip(global_weights, new_weights)]
+
+    if m_t is None:
+        m_t = [np.zeros_like(w) for w in global_weights]
+        v_t = [np.zeros_like(w) for w in global_weights]
+
+    updated_global_weights = []
+    
+    for i, (w_global, g, m, v) in enumerate(zip(global_weights, pseudo_grads, m_t, v_t)):
+        m = SERVER_BETA_1 * m + (1 - SERVER_BETA_1) * g
+        v = SERVER_BETA_2 * v + (1 - SERVER_BETA_2) * (g ** 2)
+        
+        denominator = np.sqrt(v) + SERVER_TAU
+        
+        w_new = w_global - SERVER_LR * (m / denominator)
+        updated_global_weights.append(w_new)
+        
+        m_t[i] = m
+        v_t[i] = v
+
+    return updated_global_weights, m_t, v_t

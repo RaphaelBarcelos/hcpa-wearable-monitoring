@@ -42,6 +42,9 @@ print(f"{C_MAGENTA}{'='*60}{C_RESET}")
 all_final_y_true = []
 all_final_y_pred = []
 
+server_m = None
+server_v = None
+
 for round_num in range(NUMBER_ROUNDS):
 
     print(f"\n{C_YELLOW}>>> RODADA {round_num + 1}/{NUMBER_ROUNDS} <<<{C_RESET}")
@@ -127,7 +130,15 @@ for round_num in range(NUMBER_ROUNDS):
         client_sizes.append(len(x_train))
 
     if len(client_weights) > 0:
-        global_weights = federated_average(client_weights, client_sizes)
+
+        if (AGGREGATION_METHOD == 3):
+            global_weights, server_m, server_v = federated_adam(
+                global_weights, client_weights, client_sizes, server_m, server_v, round_num
+            )
+            
+        else:
+            global_weights = federated_average(client_weights, client_sizes)
+            
         global_model.set_weights(global_weights)
 
     # Exibição do resumo Média Global Ponderada
