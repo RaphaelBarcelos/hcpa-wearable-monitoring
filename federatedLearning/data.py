@@ -74,41 +74,61 @@ def partitionDataByDirichlet(x, y, numClass):
 
 
 def splitData(clientData):
-
     np.random.seed(RANDOM_STATE)
-    split_data = []
+
+    raw_splits = []
 
     for x, y in clientData:
-        
         n = len(x)
 
         if (n == 0):
-            split_data.append((x, y, x, y))
+            raw_splits.append((x, y, x, y))
             continue
 
-        index = np.random.permutation(n)
-        split = max(1, int(n * TRAIN_RATIO))
+        indices = np.random.permutation(n)
+        split = int(n * TRAIN_RATIO)
 
-        train_index = index[:split]
-        test_index = index[split:]
+        split = max(1, split)
 
-        scaler = StandardScaler()
+        train_indices = indices[:split]
+        test_indices = indices[split:]
 
-        x_train = scaler.fit_transform(x[train_index])
-        y_train = y[train_index]
+        x_train = x[train_indices]
+        y_train = y[train_indices]
 
-        if (len(test_index) > 0):
+        x_test = x[test_indices]
+        y_test = y[test_indices]
 
-            x_test = scaler.transform(x[test_index])
-            y_test = y[test_index]
+        raw_splits.append((x_train, y_train, x_test, y_test))
 
+    non_empty_train = [x_train for x_train, _, _, _ in raw_splits if len(x_train) > 0]
+
+    if (not non_empty_train):
+        raise ValueError("Nenhum cliente possui dados de treino.")
+
+    scaler = StandardScaler()
+    scaler.fit(np.concatenate(non_empty_train, axis=0))
+
+    split_data = []
+
+    for x_train, y_train, x_test, y_test in raw_splits:
+        
+        if (len(x_train) == 0):
+            split_data.append((x_train, y_train, x_test, y_test))
+            continue
+
+        x_train_scaled = scaler.transform(x_train).astype(np.float32)
+
+        if (len(x_test) > 0):
+            x_test_scaled = scaler.transform(x_test).astype(np.float32)
+        
         else:
-            x_test = np.empty((0, x.shape[1]), dtype='float32')
-            y_test = np.empty((0,), dtype=y.dtype)
+            x_test_scaled = np.empty((0, x_train.shape[1]), dtype=np.float32)
 
-        split_data.append((x_train, y_train, x_test, y_test))
+        split_data.append((x_train_scaled, y_train, x_test_scaled, y_test))
 
     return split_data
+
 
 def show_confusion_matrix(all_final_y_true, all_final_y_pred):
 

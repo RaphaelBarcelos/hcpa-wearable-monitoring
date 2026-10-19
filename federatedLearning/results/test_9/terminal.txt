@@ -1,0 +1,905 @@
+MÉTRICAS GLOBAIS DO SERVIDOR (RODADA 67)
+  Loss      : 1.0054
+  Accuracy  : 0.6288
+  Precision : 0.6198
+  Recall    : 0.7624
+  F1 Score  : 0.6521
+  AUC       : 0.9670
+
+>>> RODADA 68/100 <<<
+-----------------------------------------------------------------
+
+TREINAMENTO LOCAL DOS CLIENTES
+  ✔ Hospital 1: treinamento concluído (569728 amostras).
+  ✔ Hospital 2: treinamento concluído (981497 amostras).
+  ✔ Hospital 3: treinamento concluído (453581 amostras).
+
+AGREGAÇÃO NO SERVIDOR
+  ✔ Pesos globais atualizados usando FedAdam.
+
+TESTE DO MODELO GLOBAL EM CADA HOSPITAL
+  Hospital 1 | Treino: 569728 | Teste: 244170
+     └─ Loss: 0.9548 | Accuracy: 0.6653 | Precision: 0.5017 | Recall: 0.7648 | F1 Score: 0.5114 | AUC: 0.9659
+  Hospital 2 | Treino: 981497 | Teste: 420642
+     └─ Loss: 1.0470 | Accuracy: 0.6037 | Precision: 0.5206 | Recall: 0.7639 | F1 Score: 0.5271 | AUC: 0.9688
+  Hospital 3 | Treino: 453581 | Teste: 194392
+     └─ Loss: 0.9697 | Accuracy: 0.6396 | Precision: 0.4757 | Recall: 0.7596 | F1 Score: 0.4897 | AUC: 0.9659
+
+   MÉTRICAS GLOBAIS DO SERVIDOR (RODADA 68)
+  Loss      : 1.0033
+  Accuracy  : 0.6293
+  Precision : 0.6205
+  Recall    : 0.7628
+  F1 Score  : 0.6528
+  AUC       : 0.9671
+
+>>> RODADA 69/100 <<<
+-----------------------------------------------------------------
+
+TREINAMENTO LOCAL DOS CLIENTES
+  ✔ Hospital 1: treinamento concluído (569728 amostras).
+  ✔ Hospital 2: treinamento concluído (981497 amostras).
+  ✔ Hospital 3: treinamento concluído (453581 amostras).
+
+AGREGAÇÃO NO SERVIDOR
+  ✔ Pesos globais atualizados usando FedAdam.
+
+TESTE DO MODELO GLOBAL EM CADA HOSPITAL
+  Hospital 1 | Treino: 569728 | Teste: 244170
+     └─ Loss: 0.9518 | Accuracy: 0.6664 | Precision: 0.5025 | Recall: 0.7658 | F1 Score: 0.5127 | AUC: 0.9661
+  Hospital 2 | Treino: 981497 | Teste: 420642
+     └─ Loss: 1.0435 | Accuracy: 0.6049 | Precision: 0.5211 | Recall: 0.7652 | F1 Score: 0.5281 | AUC: 0.9690
+  Hospital 3 | Treino: 453581 | Teste: 194392
+     └─ Loss: 0.9680 | Accuracy: 0.6399 | Precision: 0.4764 | Recall: 0.7600 | F1 Score: 0.4903 | AUC: 0.9660
+
+   MÉTRICAS GLOBAIS DO SERVIDOR (RODADA 69)
+  Loss      : 1.0004
+  Accuracy  : 0.6303
+  Precision : 0.6215
+  Recall    : 0.7637
+  F1 Score  : 0.6539
+  AUC       : 0.9673
+
+>>> RODADA 70/100 <<<
+-----------------------------------------------------------------
+
+TREINAMENTO LOCAL DOS CLIENTES
+  ✔ Hospital 1: treinamento concluído (569728 amostras).
+  ✔ Hospital 2: treinamento concluído (981497 amostras).
+  ✔ Hospital 3: treinamento concluído (453581 amostras).
+
+AGREGAÇÃO NO SERVIDOR
+  ✔ Pesos globais atualizados usando FedAdam.
+
+TESTE DO MODELO GLOBAL EM CADA HOSPITAL
+  Hospital 1 | Treino: 569728 | Teste: 244170
+     └─ Loss: 0.9482 | Accuracy: 0.6672 | Precision: 0.5031 | Recall: 0.7666 | F1 Score: 0.5139 | AUC: 0.9662
+  Hospital 2 | Treino: 981497 | Teste: 420642
+     └─ Loss: 1.0392 | Accuracy: 0.6060 | Precision: 0.5213 | Recall: 0.7662 | F1 Score: 0.5289 | AUC: 0.9692
+  Hospital 3 | Treino: 453581 | Teste: 194392
+     └─ Loss: 0.9666 | Accuracy: 0.6402 | Precision: 0.4771 | Recall: 0.7608 | F1 Score: 0.4909 | AUC: 0.9661
+
+   MÉTRICAS GLOBAIS DO SERVIDOR (RODADA 70)
+  Loss      : 0.9969
+  Accuracy  : 0.6311
+  Precision : 0.6221
+  Recall    : 0.7645
+  F1 Score  : 0.6549
+  AUC       : 0.9675
+
+>>> RODADA 71/100 <<<
+-----------------------------------------------------------------
+
+TREINAMENTO LOCAL DOS CLIENTES
+  ✔ Hospital 1: treinamento concluído (569728 amostras).
+  ✔ Hospital 2: treinamento concluído (981497 amostras).
+  ✔ Hospital 3: treinamento concluído (453581 amostras).
+
+AGREGAÇÃO NO SERVIDOR
+  ✔ Pesos globais atualizados usando FedAdam.
+
+TESTE DO MODELO GLOBAL EM CADA HOSPITAL
+  Hospital 1 | Treino: 569728 | Teste: 244170
+     └─ Loss: 0.9446 | Accuracy: 0.6681 | Precision: 0.5033 | Recall: 0.7669 | F1 Score: 0.5150 | AUC: 0.9664
+  Hospital 2 | Treino: 981497 | Teste: 420642
+     └─ Loss: 1.0343 | Accuracy: 0.6071 | Precision: 0.5212 | Recall: 0.7673 | F1 Score: 0.5295 | AUC: 0.9693
+  Hospital 3 | Treino: 453581 | Teste: 194392
+     └─ Loss: 0.9654 | Accuracy: 0.6402 | Precision: 0.4775 | Recall: 0.7621 | F1 Score: 0.4912 | AUC: 0.9662
+
+   MÉTRICAS GLOBAIS DO SERVIDOR (RODADA 71)
+  Loss      : 0.9932
+  Accuracy  : 0.6319
+  Precision : 0.6225
+  Recall    : 0.7651
+  F1 Score  : 0.6558
+  AUC       : 0.9676
+
+>>> RODADA 72/100 <<<
+-----------------------------------------------------------------
+
+TREINAMENTO LOCAL DOS CLIENTES
+  ✔ Hospital 1: treinamento concluído (569728 amostras).
+  ✔ Hospital 2: treinamento concluído (981497 amostras).
+  ✔ Hospital 3: treinamento concluído (453581 amostras).
+
+AGREGAÇÃO NO SERVIDOR
+  ✔ Pesos globais atualizados usando FedAdam.
+
+TESTE DO MODELO GLOBAL EM CADA HOSPITAL
+  Hospital 1 | Treino: 569728 | Teste: 244170
+     └─ Loss: 0.9408 | Accuracy: 0.6695 | Precision: 0.5036 | Recall: 0.7679 | F1 Score: 0.5166 | AUC: 0.9666
+  Hospital 2 | Treino: 981497 | Teste: 420642
+     └─ Loss: 1.0297 | Accuracy: 0.6083 | Precision: 0.5214 | Recall: 0.7690 | F1 Score: 0.5305 | AUC: 0.9695
+  Hospital 3 | Treino: 453581 | Teste: 194392
+     └─ Loss: 0.9645 | Accuracy: 0.6404 | Precision: 0.4780 | Recall: 0.7634 | F1 Score: 0.4916 | AUC: 0.9663
+
+   MÉTRICAS GLOBAIS DO SERVIDOR (RODADA 72)
+  Loss      : 0.9897
+  Accuracy  : 0.6329
+  Precision : 0.6232
+  Recall    : 0.7662
+  F1 Score  : 0.6571
+  AUC       : 0.9678
+
+>>> RODADA 73/100 <<<
+-----------------------------------------------------------------
+
+TREINAMENTO LOCAL DOS CLIENTES
+  ✔ Hospital 1: treinamento concluído (569728 amostras).
+  ✔ Hospital 2: treinamento concluído (981497 amostras).
+  ✔ Hospital 3: treinamento concluído (453581 amostras).
+
+AGREGAÇÃO NO SERVIDOR
+  ✔ Pesos globais atualizados usando FedAdam.
+
+TESTE DO MODELO GLOBAL EM CADA HOSPITAL
+  Hospital 1 | Treino: 569728 | Teste: 244170
+     └─ Loss: 0.9376 | Accuracy: 0.6702 | Precision: 0.5038 | Recall: 0.7685 | F1 Score: 0.5175 | AUC: 0.9667
+  Hospital 2 | Treino: 981497 | Teste: 420642
+     └─ Loss: 1.0249 | Accuracy: 0.6094 | Precision: 0.5211 | Recall: 0.7698 | F1 Score: 0.5310 | AUC: 0.9697
+  Hospital 3 | Treino: 453581 | Teste: 194392
+     └─ Loss: 0.9638 | Accuracy: 0.6402 | Precision: 0.4782 | Recall: 0.7634 | F1 Score: 0.4915 | AUC: 0.9664
+
+   MÉTRICAS GLOBAIS DO SERVIDOR (RODADA 73)
+  Loss      : 0.9863
+  Accuracy  : 0.6337
+  Precision : 0.6236
+  Recall    : 0.7668
+  F1 Score  : 0.6579
+  AUC       : 0.9679
+
+>>> RODADA 74/100 <<<
+-----------------------------------------------------------------
+
+TREINAMENTO LOCAL DOS CLIENTES
+  ✔ Hospital 1: treinamento concluído (569728 amostras).
+  ✔ Hospital 2: treinamento concluído (981497 amostras).
+  ✔ Hospital 3: treinamento concluído (453581 amostras).
+
+AGREGAÇÃO NO SERVIDOR
+  ✔ Pesos globais atualizados usando FedAdam.
+
+TESTE DO MODELO GLOBAL EM CADA HOSPITAL
+  Hospital 1 | Treino: 569728 | Teste: 244170
+     └─ Loss: 0.9346 | Accuracy: 0.6713 | Precision: 0.5040 | Recall: 0.7689 | F1 Score: 0.5185 | AUC: 0.9668
+  Hospital 2 | Treino: 981497 | Teste: 420642
+     └─ Loss: 1.0211 | Accuracy: 0.6105 | Precision: 0.5210 | Recall: 0.7703 | F1 Score: 0.5315 | AUC: 0.9698
+  Hospital 3 | Treino: 453581 | Teste: 194392
+     └─ Loss: 0.9637 | Accuracy: 0.6400 | Precision: 0.4781 | Recall: 0.7638 | F1 Score: 0.4913 | AUC: 0.9664
+
+   MÉTRICAS GLOBAIS DO SERVIDOR (RODADA 74)
+  Loss      : 0.9836
+  Accuracy  : 0.6344
+  Precision : 0.6240
+  Recall    : 0.7677
+  F1 Score  : 0.6587
+  AUC       : 0.9680
+
+>>> RODADA 75/100 <<<
+-----------------------------------------------------------------
+
+TREINAMENTO LOCAL DOS CLIENTES
+  ✔ Hospital 1: treinamento concluído (569728 amostras).
+  ✔ Hospital 2: treinamento concluído (981497 amostras).
+  ✔ Hospital 3: treinamento concluído (453581 amostras).
+
+AGREGAÇÃO NO SERVIDOR
+  ✔ Pesos globais atualizados usando FedAdam.
+
+TESTE DO MODELO GLOBAL EM CADA HOSPITAL
+  Hospital 1 | Treino: 569728 | Teste: 244170
+     └─ Loss: 0.9326 | Accuracy: 0.6716 | Precision: 0.5041 | Recall: 0.7695 | F1 Score: 0.5191 | AUC: 0.9669
+  Hospital 2 | Treino: 981497 | Teste: 420642
+     └─ Loss: 1.0174 | Accuracy: 0.6114 | Precision: 0.5203 | Recall: 0.7708 | F1 Score: 0.5316 | AUC: 0.9700
+  Hospital 3 | Treino: 453581 | Teste: 194392
+     └─ Loss: 0.9641 | Accuracy: 0.6396 | Precision: 0.4779 | Recall: 0.7645 | F1 Score: 0.4911 | AUC: 0.9664
+
+   MÉTRICAS GLOBAIS DO SERVIDOR (RODADA 75)
+  Loss      : 0.9813
+  Accuracy  : 0.6349
+  Precision : 0.6240
+  Recall    : 0.7682
+  F1 Score  : 0.6590
+  AUC       : 0.9681
+
+>>> RODADA 76/100 <<<
+-----------------------------------------------------------------
+
+TREINAMENTO LOCAL DOS CLIENTES
+  ✔ Hospital 1: treinamento concluído (569728 amostras).
+  ✔ Hospital 2: treinamento concluído (981497 amostras).
+  ✔ Hospital 3: treinamento concluído (453581 amostras).
+
+AGREGAÇÃO NO SERVIDOR
+  ✔ Pesos globais atualizados usando FedAdam.
+
+TESTE DO MODELO GLOBAL EM CADA HOSPITAL
+  Hospital 1 | Treino: 569728 | Teste: 244170
+     └─ Loss: 0.9306 | Accuracy: 0.6718 | Precision: 0.5042 | Recall: 0.7699 | F1 Score: 0.5195 | AUC: 0.9670
+  Hospital 2 | Treino: 981497 | Teste: 420642
+     └─ Loss: 1.0124 | Accuracy: 0.6127 | Precision: 0.5199 | Recall: 0.7708 | F1 Score: 0.5320 | AUC: 0.9702
+  Hospital 3 | Treino: 453581 | Teste: 194392
+     └─ Loss: 0.9639 | Accuracy: 0.6393 | Precision: 0.4778 | Recall: 0.7647 | F1 Score: 0.4908 | AUC: 0.9665
+
+   MÉTRICAS GLOBAIS DO SERVIDOR (RODADA 76)
+  Loss      : 0.9782
+  Accuracy  : 0.6355
+  Precision : 0.6241
+  Recall    : 0.7687
+  F1 Score  : 0.6594
+  AUC       : 0.9683
+
+>>> RODADA 77/100 <<<
+-----------------------------------------------------------------
+
+TREINAMENTO LOCAL DOS CLIENTES
+  ✔ Hospital 1: treinamento concluído (569728 amostras).
+  ✔ Hospital 2: treinamento concluído (981497 amostras).
+  ✔ Hospital 3: treinamento concluído (453581 amostras).
+
+AGREGAÇÃO NO SERVIDOR
+  ✔ Pesos globais atualizados usando FedAdam.
+
+TESTE DO MODELO GLOBAL EM CADA HOSPITAL
+  Hospital 1 | Treino: 569728 | Teste: 244170
+     └─ Loss: 0.9282 | Accuracy: 0.6722 | Precision: 0.5045 | Recall: 0.7704 | F1 Score: 0.5202 | AUC: 0.9671
+  Hospital 2 | Treino: 981497 | Teste: 420642
+     └─ Loss: 1.0083 | Accuracy: 0.6138 | Precision: 0.5195 | Recall: 0.7710 | F1 Score: 0.5323 | AUC: 0.9703
+  Hospital 3 | Treino: 453581 | Teste: 194392
+     └─ Loss: 0.9633 | Accuracy: 0.6393 | Precision: 0.4776 | Recall: 0.7654 | F1 Score: 0.4907 | AUC: 0.9665
+
+   MÉTRICAS GLOBAIS DO SERVIDOR (RODADA 77)
+  Loss      : 0.9753
+  Accuracy  : 0.6362
+  Precision : 0.6243
+  Recall    : 0.7693
+  F1 Score  : 0.6598
+  AUC       : 0.9684
+
+>>> RODADA 78/100 <<<
+-----------------------------------------------------------------
+
+TREINAMENTO LOCAL DOS CLIENTES
+  ✔ Hospital 1: treinamento concluído (569728 amostras).
+  ✔ Hospital 2: treinamento concluído (981497 amostras).
+  ✔ Hospital 3: treinamento concluído (453581 amostras).
+
+AGREGAÇÃO NO SERVIDOR
+  ✔ Pesos globais atualizados usando FedAdam.
+
+TESTE DO MODELO GLOBAL EM CADA HOSPITAL
+  Hospital 1 | Treino: 569728 | Teste: 244170
+     └─ Loss: 0.9252 | Accuracy: 0.6729 | Precision: 0.5051 | Recall: 0.7708 | F1 Score: 0.5211 | AUC: 0.9672
+  Hospital 2 | Treino: 981497 | Teste: 420642
+     └─ Loss: 1.0029 | Accuracy: 0.6150 | Precision: 0.5194 | Recall: 0.7721 | F1 Score: 0.5327 | AUC: 0.9705
+  Hospital 3 | Treino: 453581 | Teste: 194392
+     └─ Loss: 0.9613 | Accuracy: 0.6395 | Precision: 0.4774 | Recall: 0.7652 | F1 Score: 0.4908 | AUC: 0.9666
+
+   MÉTRICAS GLOBAIS DO SERVIDOR (RODADA 78)
+  Loss      : 0.9714
+  Accuracy  : 0.6370
+  Precision : 0.6247
+  Recall    : 0.7698
+  F1 Score  : 0.6603
+  AUC       : 0.9685
+
+>>> RODADA 79/100 <<<
+-----------------------------------------------------------------
+
+TREINAMENTO LOCAL DOS CLIENTES
+  ✔ Hospital 1: treinamento concluído (569728 amostras).
+  ✔ Hospital 2: treinamento concluído (981497 amostras).
+  ✔ Hospital 3: treinamento concluído (453581 amostras).
+
+AGREGAÇÃO NO SERVIDOR
+  ✔ Pesos globais atualizados usando FedAdam.
+
+TESTE DO MODELO GLOBAL EM CADA HOSPITAL
+  Hospital 1 | Treino: 569728 | Teste: 244170
+     └─ Loss: 0.9229 | Accuracy: 0.6733 | Precision: 0.5057 | Recall: 0.7704 | F1 Score: 0.5218 | AUC: 0.9673
+  Hospital 2 | Treino: 981497 | Teste: 420642
+     └─ Loss: 0.9985 | Accuracy: 0.6161 | Precision: 0.5195 | Recall: 0.7723 | F1 Score: 0.5331 | AUC: 0.9706
+  Hospital 3 | Treino: 453581 | Teste: 194392
+     └─ Loss: 0.9601 | Accuracy: 0.6397 | Precision: 0.4772 | Recall: 0.7656 | F1 Score: 0.4909 | AUC: 0.9666
+
+   MÉTRICAS GLOBAIS DO SERVIDOR (RODADA 79)
+  Loss      : 0.9684
+  Accuracy  : 0.6377
+  Precision : 0.6252
+  Recall    : 0.7702
+  F1 Score  : 0.6607
+  AUC       : 0.9686
+
+>>> RODADA 80/100 <<<
+-----------------------------------------------------------------
+
+TREINAMENTO LOCAL DOS CLIENTES
+  ✔ Hospital 1: treinamento concluído (569728 amostras).
+  ✔ Hospital 2: treinamento concluído (981497 amostras).
+  ✔ Hospital 3: treinamento concluído (453581 amostras).
+
+AGREGAÇÃO NO SERVIDOR
+  ✔ Pesos globais atualizados usando FedAdam.
+
+TESTE DO MODELO GLOBAL EM CADA HOSPITAL
+  Hospital 1 | Treino: 569728 | Teste: 244170
+     └─ Loss: 0.9202 | Accuracy: 0.6737 | Precision: 0.5061 | Recall: 0.7706 | F1 Score: 0.5224 | AUC: 0.9674
+  Hospital 2 | Treino: 981497 | Teste: 420642
+     └─ Loss: 0.9940 | Accuracy: 0.6172 | Precision: 0.5197 | Recall: 0.7721 | F1 Score: 0.5335 | AUC: 0.9708
+  Hospital 3 | Treino: 453581 | Teste: 194392
+     └─ Loss: 0.9585 | Accuracy: 0.6398 | Precision: 0.4771 | Recall: 0.7662 | F1 Score: 0.4914 | AUC: 0.9666
+
+   MÉTRICAS GLOBAIS DO SERVIDOR (RODADA 80)
+  Loss      : 0.9650
+  Accuracy  : 0.6384
+  Precision : 0.6257
+  Recall    : 0.7704
+  F1 Score  : 0.6611
+  AUC       : 0.9687
+
+>>> RODADA 81/100 <<<
+-----------------------------------------------------------------
+
+TREINAMENTO LOCAL DOS CLIENTES
+  ✔ Hospital 1: treinamento concluído (569728 amostras).
+  ✔ Hospital 2: treinamento concluído (981497 amostras).
+  ✔ Hospital 3: treinamento concluído (453581 amostras).
+
+AGREGAÇÃO NO SERVIDOR
+  ✔ Pesos globais atualizados usando FedAdam.
+
+TESTE DO MODELO GLOBAL EM CADA HOSPITAL
+  Hospital 1 | Treino: 569728 | Teste: 244170
+     └─ Loss: 0.9177 | Accuracy: 0.6742 | Precision: 0.5064 | Recall: 0.7703 | F1 Score: 0.5229 | AUC: 0.9675
+  Hospital 2 | Treino: 981497 | Teste: 420642
+     └─ Loss: 0.9898 | Accuracy: 0.6185 | Precision: 0.5202 | Recall: 0.7722 | F1 Score: 0.5339 | AUC: 0.9709
+  Hospital 3 | Treino: 453581 | Teste: 194392
+     └─ Loss: 0.9561 | Accuracy: 0.6406 | Precision: 0.4771 | Recall: 0.7665 | F1 Score: 0.4921 | AUC: 0.9667
+
+   MÉTRICAS GLOBAIS DO SERVIDOR (RODADA 81)
+  Loss      : 0.9617
+  Accuracy  : 0.6393
+  Precision : 0.6263
+  Recall    : 0.7705
+  F1 Score  : 0.6616
+  AUC       : 0.9688
+
+>>> RODADA 82/100 <<<
+-----------------------------------------------------------------
+
+TREINAMENTO LOCAL DOS CLIENTES
+  ✔ Hospital 1: treinamento concluído (569728 amostras).
+  ✔ Hospital 2: treinamento concluído (981497 amostras).
+  ✔ Hospital 3: treinamento concluído (453581 amostras).
+
+AGREGAÇÃO NO SERVIDOR
+  ✔ Pesos globais atualizados usando FedAdam.
+
+TESTE DO MODELO GLOBAL EM CADA HOSPITAL
+  Hospital 1 | Treino: 569728 | Teste: 244170
+     └─ Loss: 0.9154 | Accuracy: 0.6751 | Precision: 0.5070 | Recall: 0.7712 | F1 Score: 0.5237 | AUC: 0.9676
+  Hospital 2 | Treino: 981497 | Teste: 420642
+     └─ Loss: 0.9863 | Accuracy: 0.6198 | Precision: 0.5211 | Recall: 0.7724 | F1 Score: 0.5345 | AUC: 0.9710
+  Hospital 3 | Treino: 453581 | Teste: 194392
+     └─ Loss: 0.9524 | Accuracy: 0.6420 | Precision: 0.4775 | Recall: 0.7663 | F1 Score: 0.4932 | AUC: 0.9668
+
+   MÉTRICAS GLOBAIS DO SERVIDOR (RODADA 82)
+  Loss      : 0.9585
+  Accuracy  : 0.6405
+  Precision : 0.6272
+  Recall    : 0.7707
+  F1 Score  : 0.6623
+  AUC       : 0.9689
+
+>>> RODADA 83/100 <<<
+-----------------------------------------------------------------
+
+TREINAMENTO LOCAL DOS CLIENTES
+  ✔ Hospital 1: treinamento concluído (569728 amostras).
+  ✔ Hospital 2: treinamento concluído (981497 amostras).
+  ✔ Hospital 3: treinamento concluído (453581 amostras).
+
+AGREGAÇÃO NO SERVIDOR
+  ✔ Pesos globais atualizados usando FedAdam.
+
+TESTE DO MODELO GLOBAL EM CADA HOSPITAL
+  Hospital 1 | Treino: 569728 | Teste: 244170
+     └─ Loss: 0.9135 | Accuracy: 0.6758 | Precision: 0.5074 | Recall: 0.7704 | F1 Score: 0.5242 | AUC: 0.9677
+  Hospital 2 | Treino: 981497 | Teste: 420642
+     └─ Loss: 0.9835 | Accuracy: 0.6209 | Precision: 0.5220 | Recall: 0.7725 | F1 Score: 0.5352 | AUC: 0.9711
+  Hospital 3 | Treino: 453581 | Teste: 194392
+     └─ Loss: 0.9486 | Accuracy: 0.6436 | Precision: 0.4780 | Recall: 0.7657 | F1 Score: 0.4941 | AUC: 0.9669
+
+   MÉTRICAS GLOBAIS DO SERVIDOR (RODADA 83)
+  Loss      : 0.9557
+  Accuracy  : 0.6416
+  Precision : 0.6280
+  Recall    : 0.7709
+  F1 Score  : 0.6631
+  AUC       : 0.9690
+
+>>> RODADA 84/100 <<<
+-----------------------------------------------------------------
+
+TREINAMENTO LOCAL DOS CLIENTES
+  ✔ Hospital 1: treinamento concluído (569728 amostras).
+  ✔ Hospital 2: treinamento concluído (981497 amostras).
+  ✔ Hospital 3: treinamento concluído (453581 amostras).
+
+AGREGAÇÃO NO SERVIDOR
+  ✔ Pesos globais atualizados usando FedAdam.
+
+TESTE DO MODELO GLOBAL EM CADA HOSPITAL
+  Hospital 1 | Treino: 569728 | Teste: 244170
+     └─ Loss: 0.9116 | Accuracy: 0.6763 | Precision: 0.5075 | Recall: 0.7702 | F1 Score: 0.5243 | AUC: 0.9677
+  Hospital 2 | Treino: 981497 | Teste: 420642
+     └─ Loss: 0.9813 | Accuracy: 0.6215 | Precision: 0.5227 | Recall: 0.7727 | F1 Score: 0.5356 | AUC: 0.9712
+  Hospital 3 | Treino: 453581 | Teste: 194392
+     └─ Loss: 0.9438 | Accuracy: 0.6454 | Precision: 0.4791 | Recall: 0.7661 | F1 Score: 0.4956 | AUC: 0.9671
+
+   MÉTRICAS GLOBAIS DO SERVIDOR (RODADA 84)
+  Loss      : 0.9530
+  Accuracy  : 0.6425
+  Precision : 0.6287
+  Recall    : 0.7710
+  F1 Score  : 0.6637
+  AUC       : 0.9691
+
+>>> RODADA 85/100 <<<
+-----------------------------------------------------------------
+
+TREINAMENTO LOCAL DOS CLIENTES
+  ✔ Hospital 1: treinamento concluído (569728 amostras).
+  ✔ Hospital 2: treinamento concluído (981497 amostras).
+  ✔ Hospital 3: treinamento concluído (453581 amostras).
+
+AGREGAÇÃO NO SERVIDOR
+  ✔ Pesos globais atualizados usando FedAdam.
+
+TESTE DO MODELO GLOBAL EM CADA HOSPITAL
+  Hospital 1 | Treino: 569728 | Teste: 244170
+     └─ Loss: 0.9094 | Accuracy: 0.6769 | Precision: 0.5078 | Recall: 0.7708 | F1 Score: 0.5246 | AUC: 0.9678
+  Hospital 2 | Treino: 981497 | Teste: 420642
+     └─ Loss: 0.9787 | Accuracy: 0.6222 | Precision: 0.5236 | Recall: 0.7737 | F1 Score: 0.5364 | AUC: 0.9713
+  Hospital 3 | Treino: 453581 | Teste: 194392
+     └─ Loss: 0.9388 | Accuracy: 0.6468 | Precision: 0.4801 | Recall: 0.7667 | F1 Score: 0.4969 | AUC: 0.9673
+
+   MÉTRICAS GLOBAIS DO SERVIDOR (RODADA 85)
+  Loss      : 0.9500
+  Accuracy  : 0.6433
+  Precision : 0.6294
+  Recall    : 0.7713
+  F1 Score  : 0.6645
+  AUC       : 0.9692
+
+>>> RODADA 86/100 <<<
+-----------------------------------------------------------------
+
+TREINAMENTO LOCAL DOS CLIENTES
+  ✔ Hospital 1: treinamento concluído (569728 amostras).
+  ✔ Hospital 2: treinamento concluído (981497 amostras).
+  ✔ Hospital 3: treinamento concluído (453581 amostras).
+
+AGREGAÇÃO NO SERVIDOR
+  ✔ Pesos globais atualizados usando FedAdam.
+
+TESTE DO MODELO GLOBAL EM CADA HOSPITAL
+  Hospital 1 | Treino: 569728 | Teste: 244170
+     └─ Loss: 0.9072 | Accuracy: 0.6776 | Precision: 0.5080 | Recall: 0.7712 | F1 Score: 0.5250 | AUC: 0.9679
+  Hospital 2 | Treino: 981497 | Teste: 420642
+     └─ Loss: 0.9766 | Accuracy: 0.6231 | Precision: 0.5246 | Recall: 0.7742 | F1 Score: 0.5374 | AUC: 0.9714
+  Hospital 3 | Treino: 453581 | Teste: 194392
+     └─ Loss: 0.9339 | Accuracy: 0.6484 | Precision: 0.4812 | Recall: 0.7677 | F1 Score: 0.4983 | AUC: 0.9676
+
+   MÉTRICAS GLOBAIS DO SERVIDOR (RODADA 86)
+  Loss      : 0.9472
+  Accuracy  : 0.6443
+  Precision : 0.6302
+  Recall    : 0.7719
+  F1 Score  : 0.6655
+  AUC       : 0.9694
+
+>>> RODADA 87/100 <<<
+-----------------------------------------------------------------
+
+TREINAMENTO LOCAL DOS CLIENTES
+  ✔ Hospital 1: treinamento concluído (569728 amostras).
+  ✔ Hospital 2: treinamento concluído (981497 amostras).
+  ✔ Hospital 3: treinamento concluído (453581 amostras).
+
+AGREGAÇÃO NO SERVIDOR
+  ✔ Pesos globais atualizados usando FedAdam.
+
+TESTE DO MODELO GLOBAL EM CADA HOSPITAL
+  Hospital 1 | Treino: 569728 | Teste: 244170
+     └─ Loss: 0.9055 | Accuracy: 0.6782 | Precision: 0.5080 | Recall: 0.7716 | F1 Score: 0.5253 | AUC: 0.9680
+  Hospital 2 | Treino: 981497 | Teste: 420642
+     └─ Loss: 0.9756 | Accuracy: 0.6234 | Precision: 0.5254 | Recall: 0.7744 | F1 Score: 0.5381 | AUC: 0.9715
+  Hospital 3 | Treino: 453581 | Teste: 194392
+     └─ Loss: 0.9301 | Accuracy: 0.6495 | Precision: 0.4819 | Recall: 0.7678 | F1 Score: 0.4993 | AUC: 0.9678
+
+   MÉTRICAS GLOBAIS DO SERVIDOR (RODADA 87)
+  Loss      : 0.9454
+  Accuracy  : 0.6449
+  Precision : 0.6306
+  Recall    : 0.7723
+  F1 Score  : 0.6663
+  AUC       : 0.9695
+
+>>> RODADA 88/100 <<<
+-----------------------------------------------------------------
+
+TREINAMENTO LOCAL DOS CLIENTES
+  ✔ Hospital 1: treinamento concluído (569728 amostras).
+  ✔ Hospital 2: treinamento concluído (981497 amostras).
+  ✔ Hospital 3: treinamento concluído (453581 amostras).
+
+AGREGAÇÃO NO SERVIDOR
+  ✔ Pesos globais atualizados usando FedAdam.
+
+TESTE DO MODELO GLOBAL EM CADA HOSPITAL
+  Hospital 1 | Treino: 569728 | Teste: 244170
+     └─ Loss: 0.9044 | Accuracy: 0.6788 | Precision: 0.5079 | Recall: 0.7708 | F1 Score: 0.5254 | AUC: 0.9681
+  Hospital 2 | Treino: 981497 | Teste: 420642
+     └─ Loss: 0.9752 | Accuracy: 0.6238 | Precision: 0.5262 | Recall: 0.7750 | F1 Score: 0.5388 | AUC: 0.9716
+  Hospital 3 | Treino: 453581 | Teste: 194392
+     └─ Loss: 0.9265 | Accuracy: 0.6506 | Precision: 0.4825 | Recall: 0.7688 | F1 Score: 0.5002 | AUC: 0.9679
+
+   MÉTRICAS GLOBAIS DO SERVIDOR (RODADA 88)
+  Loss      : 0.9441
+  Accuracy  : 0.6455
+  Precision : 0.6310
+  Recall    : 0.7727
+  F1 Score  : 0.6669
+  AUC       : 0.9696
+
+>>> RODADA 89/100 <<<
+-----------------------------------------------------------------
+
+TREINAMENTO LOCAL DOS CLIENTES
+  ✔ Hospital 1: treinamento concluído (569728 amostras).
+  ✔ Hospital 2: treinamento concluído (981497 amostras).
+  ✔ Hospital 3: treinamento concluído (453581 amostras).
+
+AGREGAÇÃO NO SERVIDOR
+  ✔ Pesos globais atualizados usando FedAdam.
+
+TESTE DO MODELO GLOBAL EM CADA HOSPITAL
+  Hospital 1 | Treino: 569728 | Teste: 244170
+     └─ Loss: 0.9037 | Accuracy: 0.6796 | Precision: 0.5079 | Recall: 0.7715 | F1 Score: 0.5257 | AUC: 0.9682
+  Hospital 2 | Treino: 981497 | Teste: 420642
+     └─ Loss: 0.9748 | Accuracy: 0.6252 | Precision: 0.5276 | Recall: 0.7767 | F1 Score: 0.5401 | AUC: 0.9717
+  Hospital 3 | Treino: 453581 | Teste: 194392
+     └─ Loss: 0.9233 | Accuracy: 0.6522 | Precision: 0.4831 | Recall: 0.7692 | F1 Score: 0.5012 | AUC: 0.9681
+
+   MÉTRICAS GLOBAIS DO SERVIDOR (RODADA 89)
+  Loss      : 0.9430
+  Accuracy  : 0.6468
+  Precision : 0.6319
+  Recall    : 0.7734
+  F1 Score  : 0.6681
+  AUC       : 0.9697
+
+>>> RODADA 90/100 <<<
+-----------------------------------------------------------------
+
+TREINAMENTO LOCAL DOS CLIENTES
+  ✔ Hospital 1: treinamento concluído (569728 amostras).
+  ✔ Hospital 2: treinamento concluído (981497 amostras).
+  ✔ Hospital 3: treinamento concluído (453581 amostras).
+
+AGREGAÇÃO NO SERVIDOR
+  ✔ Pesos globais atualizados usando FedAdam.
+
+TESTE DO MODELO GLOBAL EM CADA HOSPITAL
+  Hospital 1 | Treino: 569728 | Teste: 244170
+     └─ Loss: 0.9034 | Accuracy: 0.6802 | Precision: 0.5082 | Recall: 0.7723 | F1 Score: 0.5262 | AUC: 0.9682
+  Hospital 2 | Treino: 981497 | Teste: 420642
+     └─ Loss: 0.9751 | Accuracy: 0.6262 | Precision: 0.5287 | Recall: 0.7775 | F1 Score: 0.5411 | AUC: 0.9717
+  Hospital 3 | Treino: 453581 | Teste: 194392
+     └─ Loss: 0.9212 | Accuracy: 0.6539 | Precision: 0.4839 | Recall: 0.7700 | F1 Score: 0.5025 | AUC: 0.9683
+
+   MÉTRICAS GLOBAIS DO SERVIDOR (RODADA 90)
+  Loss      : 0.9425
+  Accuracy  : 0.6478
+  Precision : 0.6327
+  Recall    : 0.7742
+  F1 Score  : 0.6691
+  AUC       : 0.9697
+
+>>> RODADA 91/100 <<<
+-----------------------------------------------------------------
+
+TREINAMENTO LOCAL DOS CLIENTES
+  ✔ Hospital 1: treinamento concluído (569728 amostras).
+  ✔ Hospital 2: treinamento concluído (981497 amostras).
+  ✔ Hospital 3: treinamento concluído (453581 amostras).
+
+AGREGAÇÃO NO SERVIDOR
+  ✔ Pesos globais atualizados usando FedAdam.
+
+TESTE DO MODELO GLOBAL EM CADA HOSPITAL
+  Hospital 1 | Treino: 569728 | Teste: 244170
+     └─ Loss: 0.9024 | Accuracy: 0.6809 | Precision: 0.5086 | Recall: 0.7727 | F1 Score: 0.5268 | AUC: 0.9683
+  Hospital 2 | Treino: 981497 | Teste: 420642
+     └─ Loss: 0.9750 | Accuracy: 0.6263 | Precision: 0.5293 | Recall: 0.7778 | F1 Score: 0.5416 | AUC: 0.9718
+  Hospital 3 | Treino: 453581 | Teste: 194392
+     └─ Loss: 0.9187 | Accuracy: 0.6553 | Precision: 0.4845 | Recall: 0.7712 | F1 Score: 0.5036 | AUC: 0.9685
+
+   MÉTRICAS GLOBAIS DO SERVIDOR (RODADA 91)
+  Loss      : 0.9417
+  Accuracy  : 0.6484
+  Precision : 0.6333
+  Recall    : 0.7748
+  F1 Score  : 0.6697
+  AUC       : 0.9698
+
+>>> RODADA 92/100 <<<
+-----------------------------------------------------------------
+
+TREINAMENTO LOCAL DOS CLIENTES
+  ✔ Hospital 1: treinamento concluído (569728 amostras).
+  ✔ Hospital 2: treinamento concluído (981497 amostras).
+  ✔ Hospital 3: treinamento concluído (453581 amostras).
+
+AGREGAÇÃO NO SERVIDOR
+  ✔ Pesos globais atualizados usando FedAdam.
+
+TESTE DO MODELO GLOBAL EM CADA HOSPITAL
+  Hospital 1 | Treino: 569728 | Teste: 244170
+     └─ Loss: 0.9008 | Accuracy: 0.6818 | Precision: 0.5090 | Recall: 0.7727 | F1 Score: 0.5273 | AUC: 0.9684
+  Hospital 2 | Treino: 981497 | Teste: 420642
+     └─ Loss: 0.9744 | Accuracy: 0.6267 | Precision: 0.5301 | Recall: 0.7787 | F1 Score: 0.5421 | AUC: 0.9718
+  Hospital 3 | Treino: 453581 | Teste: 194392
+     └─ Loss: 0.9155 | Accuracy: 0.6567 | Precision: 0.4851 | Recall: 0.7715 | F1 Score: 0.5047 | AUC: 0.9686
+
+   MÉTRICAS GLOBAIS DO SERVIDOR (RODADA 92)
+  Loss      : 0.9402
+  Accuracy  : 0.6491
+  Precision : 0.6341
+  Recall    : 0.7752
+  F1 Score  : 0.6704
+  AUC       : 0.9699
+
+>>> RODADA 93/100 <<<
+-----------------------------------------------------------------
+
+TREINAMENTO LOCAL DOS CLIENTES
+  ✔ Hospital 1: treinamento concluído (569728 amostras).
+  ✔ Hospital 2: treinamento concluído (981497 amostras).
+  ✔ Hospital 3: treinamento concluído (453581 amostras).
+
+AGREGAÇÃO NO SERVIDOR
+  ✔ Pesos globais atualizados usando FedAdam.
+
+TESTE DO MODELO GLOBAL EM CADA HOSPITAL
+  Hospital 1 | Treino: 569728 | Teste: 244170
+     └─ Loss: 0.9001 | Accuracy: 0.6822 | Precision: 0.5093 | Recall: 0.7734 | F1 Score: 0.5275 | AUC: 0.9685
+  Hospital 2 | Treino: 981497 | Teste: 420642
+     └─ Loss: 0.9744 | Accuracy: 0.6270 | Precision: 0.5306 | Recall: 0.7789 | F1 Score: 0.5426 | AUC: 0.9719
+  Hospital 3 | Treino: 453581 | Teste: 194392
+     └─ Loss: 0.9130 | Accuracy: 0.6577 | Precision: 0.4854 | Recall: 0.7717 | F1 Score: 0.5053 | AUC: 0.9688
+
+   MÉTRICAS GLOBAIS DO SERVIDOR (RODADA 93)
+  Loss      : 0.9394
+  Accuracy  : 0.6496
+  Precision : 0.6345
+  Recall    : 0.7757
+  F1 Score  : 0.6710
+  AUC       : 0.9700
+
+>>> RODADA 94/100 <<<
+-----------------------------------------------------------------
+
+TREINAMENTO LOCAL DOS CLIENTES
+  ✔ Hospital 1: treinamento concluído (569728 amostras).
+  ✔ Hospital 2: treinamento concluído (981497 amostras).
+  ✔ Hospital 3: treinamento concluído (453581 amostras).
+
+AGREGAÇÃO NO SERVIDOR
+  ✔ Pesos globais atualizados usando FedAdam.
+
+TESTE DO MODELO GLOBAL EM CADA HOSPITAL
+  Hospital 1 | Treino: 569728 | Teste: 244170
+     └─ Loss: 0.8986 | Accuracy: 0.6831 | Precision: 0.5099 | Recall: 0.7742 | F1 Score: 0.5282 | AUC: 0.9687
+  Hospital 2 | Treino: 981497 | Teste: 420642
+     └─ Loss: 0.9738 | Accuracy: 0.6276 | Precision: 0.5312 | Recall: 0.7791 | F1 Score: 0.5432 | AUC: 0.9720
+  Hospital 3 | Treino: 453581 | Teste: 194392
+     └─ Loss: 0.9106 | Accuracy: 0.6587 | Precision: 0.4861 | Recall: 0.7728 | F1 Score: 0.5062 | AUC: 0.9690
+
+   MÉTRICAS GLOBAIS DO SERVIDOR (RODADA 94)
+  Loss      : 0.9382
+  Accuracy  : 0.6504
+  Precision : 0.6352
+  Recall    : 0.7764
+  F1 Score  : 0.6718
+  AUC       : 0.9702
+
+>>> RODADA 95/100 <<<
+-----------------------------------------------------------------
+
+TREINAMENTO LOCAL DOS CLIENTES
+  ✔ Hospital 1: treinamento concluído (569728 amostras).
+  ✔ Hospital 2: treinamento concluído (981497 amostras).
+  ✔ Hospital 3: treinamento concluído (453581 amostras).
+
+AGREGAÇÃO NO SERVIDOR
+  ✔ Pesos globais atualizados usando FedAdam.
+
+TESTE DO MODELO GLOBAL EM CADA HOSPITAL
+  Hospital 1 | Treino: 569728 | Teste: 244170
+     └─ Loss: 0.8970 | Accuracy: 0.6839 | Precision: 0.5105 | Recall: 0.7745 | F1 Score: 0.5288 | AUC: 0.9688
+  Hospital 2 | Treino: 981497 | Teste: 420642
+     └─ Loss: 0.9728 | Accuracy: 0.6285 | Precision: 0.5318 | Recall: 0.7796 | F1 Score: 0.5441 | AUC: 0.9721
+  Hospital 3 | Treino: 453581 | Teste: 194392
+     └─ Loss: 0.9089 | Accuracy: 0.6597 | Precision: 0.4868 | Recall: 0.7739 | F1 Score: 0.5072 | AUC: 0.9691
+
+   MÉTRICAS GLOBAIS DO SERVIDOR (RODADA 95)
+  Loss      : 0.9369
+  Accuracy  : 0.6513
+  Precision : 0.6361
+  Recall    : 0.7771
+  F1 Score  : 0.6728
+  AUC       : 0.9703
+
+>>> RODADA 96/100 <<<
+-----------------------------------------------------------------
+
+TREINAMENTO LOCAL DOS CLIENTES
+  ✔ Hospital 1: treinamento concluído (569728 amostras).
+  ✔ Hospital 2: treinamento concluído (981497 amostras).
+  ✔ Hospital 3: treinamento concluído (453581 amostras).
+
+AGREGAÇÃO NO SERVIDOR
+  ✔ Pesos globais atualizados usando FedAdam.
+
+TESTE DO MODELO GLOBAL EM CADA HOSPITAL
+  Hospital 1 | Treino: 569728 | Teste: 244170
+     └─ Loss: 0.8956 | Accuracy: 0.6845 | Precision: 0.5112 | Recall: 0.7745 | F1 Score: 0.5296 | AUC: 0.9689
+  Hospital 2 | Treino: 981497 | Teste: 420642
+     └─ Loss: 0.9703 | Accuracy: 0.6299 | Precision: 0.5323 | Recall: 0.7810 | F1 Score: 0.5452 | AUC: 0.9722
+  Hospital 3 | Treino: 453581 | Teste: 194392
+     └─ Loss: 0.9077 | Accuracy: 0.6601 | Precision: 0.4868 | Recall: 0.7727 | F1 Score: 0.5073 | AUC: 0.9692
+
+   MÉTRICAS GLOBAIS DO SERVIDOR (RODADA 96)
+  Loss      : 0.9349
+  Accuracy  : 0.6522
+  Precision : 0.6368
+  Recall    : 0.7777
+  F1 Score  : 0.6737
+  AUC       : 0.9704
+
+>>> RODADA 97/100 <<<
+-----------------------------------------------------------------
+
+TREINAMENTO LOCAL DOS CLIENTES
+  ✔ Hospital 1: treinamento concluído (569728 amostras).
+  ✔ Hospital 2: treinamento concluído (981497 amostras).
+  ✔ Hospital 3: treinamento concluído (453581 amostras).
+
+AGREGAÇÃO NO SERVIDOR
+  ✔ Pesos globais atualizados usando FedAdam.
+
+TESTE DO MODELO GLOBAL EM CADA HOSPITAL
+  Hospital 1 | Treino: 569728 | Teste: 244170
+     └─ Loss: 0.8946 | Accuracy: 0.6849 | Precision: 0.5119 | Recall: 0.7748 | F1 Score: 0.5302 | AUC: 0.9691
+  Hospital 2 | Treino: 981497 | Teste: 420642
+     └─ Loss: 0.9668 | Accuracy: 0.6318 | Precision: 0.5327 | Recall: 0.7818 | F1 Score: 0.5464 | AUC: 0.9723
+  Hospital 3 | Treino: 453581 | Teste: 194392
+     └─ Loss: 0.9071 | Accuracy: 0.6599 | Precision: 0.4868 | Recall: 0.7728 | F1 Score: 0.5072 | AUC: 0.9693
+
+   MÉTRICAS GLOBAIS DO SERVIDOR (RODADA 97)
+  Loss      : 0.9328
+  Accuracy  : 0.6533
+  Precision : 0.6376
+  Recall    : 0.7785
+  F1 Score  : 0.6747
+  AUC       : 0.9705
+
+>>> RODADA 98/100 <<<
+-----------------------------------------------------------------
+
+TREINAMENTO LOCAL DOS CLIENTES
+  ✔ Hospital 1: treinamento concluído (569728 amostras).
+  ✔ Hospital 2: treinamento concluído (981497 amostras).
+  ✔ Hospital 3: treinamento concluído (453581 amostras).
+
+AGREGAÇÃO NO SERVIDOR
+  ✔ Pesos globais atualizados usando FedAdam.
+
+TESTE DO MODELO GLOBAL EM CADA HOSPITAL
+  Hospital 1 | Treino: 569728 | Teste: 244170
+     └─ Loss: 0.8935 | Accuracy: 0.6854 | Precision: 0.5126 | Recall: 0.7758 | F1 Score: 0.5307 | AUC: 0.9692
+  Hospital 2 | Treino: 981497 | Teste: 420642
+     └─ Loss: 0.9631 | Accuracy: 0.6340 | Precision: 0.5329 | Recall: 0.7830 | F1 Score: 0.5476 | AUC: 0.9724
+  Hospital 3 | Treino: 453581 | Teste: 194392
+     └─ Loss: 0.9068 | Accuracy: 0.6600 | Precision: 0.4871 | Recall: 0.7733 | F1 Score: 0.5074 | AUC: 0.9693
+
+   MÉTRICAS GLOBAIS DO SERVIDOR (RODADA 98)
+  Loss      : 0.9306
+  Accuracy  : 0.6545
+  Precision : 0.6383
+  Recall    : 0.7792
+  F1 Score  : 0.6756
+  AUC       : 0.9706
+
+>>> RODADA 99/100 <<<
+-----------------------------------------------------------------
+
+TREINAMENTO LOCAL DOS CLIENTES
+  ✔ Hospital 1: treinamento concluído (569728 amostras).
+  ✔ Hospital 2: treinamento concluído (981497 amostras).
+  ✔ Hospital 3: treinamento concluído (453581 amostras).
+
+AGREGAÇÃO NO SERVIDOR
+  ✔ Pesos globais atualizados usando FedAdam.
+
+TESTE DO MODELO GLOBAL EM CADA HOSPITAL
+  Hospital 1 | Treino: 569728 | Teste: 244170
+     └─ Loss: 0.8919 | Accuracy: 0.6856 | Precision: 0.5133 | Recall: 0.7763 | F1 Score: 0.5313 | AUC: 0.9693
+  Hospital 2 | Treino: 981497 | Teste: 420642
+     └─ Loss: 0.9597 | Accuracy: 0.6354 | Precision: 0.5330 | Recall: 0.7841 | F1 Score: 0.5485 | AUC: 0.9726
+  Hospital 3 | Treino: 453581 | Teste: 194392
+     └─ Loss: 0.9062 | Accuracy: 0.6601 | Precision: 0.4876 | Recall: 0.7740 | F1 Score: 0.5078 | AUC: 0.9694
+
+   MÉTRICAS GLOBAIS DO SERVIDOR (RODADA 99)
+  Loss      : 0.9283
+  Accuracy  : 0.6553
+  Precision : 0.6390
+  Recall    : 0.7797
+  F1 Score  : 0.6763
+  AUC       : 0.9707
+
+>>> RODADA 100/100 <<<
+-----------------------------------------------------------------
+
+TREINAMENTO LOCAL DOS CLIENTES
+  ✔ Hospital 1: treinamento concluído (569728 amostras).
+  ✔ Hospital 2: treinamento concluído (981497 amostras).
+  ✔ Hospital 3: treinamento concluído (453581 amostras).
+
+AGREGAÇÃO NO SERVIDOR
+  ✔ Pesos globais atualizados usando FedAdam.
+
+TESTE DO MODELO GLOBAL EM CADA HOSPITAL
+  Hospital 1 | Treino: 569728 | Teste: 244170
+     └─ Loss: 0.8906 | Accuracy: 0.6855 | Precision: 0.5141 | Recall: 0.7776 | F1 Score: 0.5317 | AUC: 0.9694
+  Hospital 2 | Treino: 981497 | Teste: 420642
+     └─ Loss: 0.9565 | Accuracy: 0.6366 | Precision: 0.5331 | Recall: 0.7848 | F1 Score: 0.5492 | AUC: 0.9727
+  Hospital 3 | Treino: 453581 | Teste: 194392
+     └─ Loss: 0.9057 | Accuracy: 0.6597 | Precision: 0.4880 | Recall: 0.7740 | F1 Score: 0.5078 | AUC: 0.9695
+
+   MÉTRICAS GLOBAIS DO SERVIDOR (RODADA 100)
+  Loss      : 0.9263
+  Accuracy  : 0.6557
+  Precision : 0.6396
+  Recall    : 0.7801
+  F1 Score  : 0.6768
+  AUC       : 0.9708 
+
+=================================================================
+✔ SIMULAÇÃO FEDERADA CONCLUÍDA COM SUCESSO!
+=================================================================
+
+Gerando e salvando imagem da Matriz de Confusão do Modelo Global Final...
+✔ Matriz de Confusão salva em matriz_confusao.png
